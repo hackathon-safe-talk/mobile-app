@@ -1,0 +1,38 @@
+# Android / Gradle
+.gradle/
+.kotlin/
+build/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs / temp
+*.log
+logcat.txt
+crash_log.txt
+build_output.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 🔐 Keystore (MAXFIY)
+keystore/
+*.jks
+
+# 📦 Build output
+app/release/
+*.apk
+*.aab

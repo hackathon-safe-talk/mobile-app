@@ -1,0 +1,35 @@
+=== SafeTalk ML Model Evaluation Report ===
+Timestamp: 2026-03-16 04:03:03
+
+Dataset Path used: D:\SafeTalk\safetalk_ai\data\processed\messages_cleaned.csv
+Total Rows: 5906
+
+TF-IDF Settings:
+- ngram_range: (1, 2)
+- max_features: 5000
+- min_df: 1
+
+Train/Test Split Settings:
+- test_size: 0.2
+- random_state: 42
+- stratify: labels
+
+Model Type: LogisticRegression(max_iter=1000)
+
+--- PERFORMANCE ---
+Accuracy: 0.9552
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.95      1.00      0.97       979
+        scam       0.99      0.74      0.85       203
+
+    accuracy                           0.96      1182
+   macro avg       0.97      0.87      0.91      1182
+weighted avg       0.96      0.96      0.95      1182
+
+
+Confusion Matrix:
+[[978   1]
+ [ 52 151]]

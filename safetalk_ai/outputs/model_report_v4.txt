@@ -1,0 +1,32 @@
+=== SafeTalk Model Evaluation Summary V4 ===
+Timestamp: 2026-03-16 04:57:59
+
+Dataset: messages_cleaned_v4.csv
+Total rows used: 6873
+Train set size: 5498
+Test set size: 1375
+
+=== Metrics ===
+Accuracy: 0.9615
+Scam Precision: 0.9935
+Scam Recall: 0.8571
+F1-Score (Scam): 0.9203
+
+Confusion Matrix:
+[[1016    2]
+ [  51  306]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.95      1.00      0.97      1018
+        scam       0.99      0.86      0.92       357
+
+    accuracy                           0.96      1375
+   macro avg       0.97      0.93      0.95      1375
+weighted avg       0.96      0.96      0.96      1375
+
+
+=== Conclusion ===
+V4 incorporates the new 250+ security alert scams into the training pipeline.
+Compare vs V3 to confirm recall improvements for security alerts.

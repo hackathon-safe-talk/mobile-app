@@ -1,0 +1,140 @@
+text,risk_label,intent_label,language,tags
+"Hurmatli mijoz, ClickEvolution ilovasiga xush kelibsiz! Parolingizni hech kimga ayta ko'rmang.",SAFE,INFO,uz,security_info
+"Sizning Humo kartangizdan 50,000 so'm yechildi. Tafsilotlar: http://bank.uz/stats",SAFE,INFO,uz,"transaction,link"
+Loginni tasdiqlash uchun SMS kodi: 7721. Uni begonalarga bermang.,SAFE,INFO,uz,"otp,security"
+"Beeline: To'lovingiz qabul qilindi. Balans: 12,500 so'm. Rahmat!",SAFE,INFO,uz,"payment,service"
+Yandex Go: Haydovchi yetib keldi. Mashina raqami: 01A123BA.,SAFE,INFO,uz,service
+UzPost: Sizning posilkangiz aloqa bo'limiga yetib keldi. Olib ketishingiz mumkin.,SAFE,INFO,uz,delivery
+Tahlil natijalaringiz tayyor. Ularni shaxsiy kabinetingizda ko'ring: http://med.uz/results,SAFE,INFO,uz,"medical,link"
+Sizning arizangiz ko'rib chiqildi. Statusni tekshirish: http://my.gov.uz,SAFE,INFO,uz,"gov,link"
+"Hurmatli foydalanuvchi, xizmat ko'rsatish shartlari o'zgardi. Batafsil: http://payme.uz/terms",SAFE,INFO,uz,"legal,link"
+"Bugun soat 21:00 da texnik ishlar olib boriladi, tizimda uzilishlar bo'lishi mumkin.",SAFE,INFO,uz,technical
+To'lov muvaffaqiyatli amalga oshirildi. Kvitansiya: http://click.uz/r/12345,SAFE,INFO,uz,"receipt,link"
+Shaxsiy hisobingizga kirish uchun vaqtinchalik kod: 0982. Hech kimga bermang.,SAFE,INFO,uz,"otp,security"
+Karta ma'lumotlarini yangilash uchun ofisimizga tashrif buyuring.,SAFE,INFO,uz,offline_request
+Tasdiqlash kodi: 111222. SafeTalk sizdan hech qachon kod so'ramaydi.,SAFE,INFO,uz,otp_warning
+Ajoyib imkoniyat! Bugunoq ro'yxatdan o'ting va sovg'alarga ega bo'ling.,SUSPICIOUS,INFO,uz,"promo,bait"
+Siz uchun maxsus taklif bor! Batafsil ma'lumot olish uchun kiring.,SUSPICIOUS,INFO,uz,"promo,bait"
+Profilingizni yangilang va barcha funksiyalardan foydalaning.,SUSPICIOUS,INFO,uz,"account_update,bait"
+Aksiyada qatnashing va qimmatbaho sovrinlarni yutib oling!,SUSPICIOUS,INFO,uz,"promo,bait"
+Maxsus chegirmalar faqat siz uchun! Hoziroq ko'rib chiqing.,SUSPICIOUS,INFO,uz,"promo,urgency"
+Sizga kutilmagan sovg'a tayyorlangan. Uni olishga shoshiling!,SUSPICIOUS,INFO,uz,"bait,urgency"
+Telegram Premium yutib oldingiz deb o'ylaysizmi? Tekshirib ko'ring.,SUSPICIOUS,INFO,uz,"bait,curiosity"
+Bonus olish uchun to'g'ri vaqt keldi. Imkoniyatni boy bermang.,SUSPICIOUS,INFO,uz,"bait,promo"
+"Hisobingizni faollashtiring, aks holda funksiyalar ishlamasligi mumkin.",SUSPICIOUS,INFO,uz,"account,pressure"
+Yangi WhatsApp versiyasini yuklang va bonus oling: http://check-user.online,DANGEROUS,REQUEST,uz,phishing_gen
+Bepul iPhone 15 yutib oldingiz! Hoziroq bosing: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+"Bank-online: Sizga 2,500,000 so'm keshbek yozildi. Karta ma'lumotlarini to'ldiring: http://gift-uz.click",DANGEROUS,REQUEST,uz,phishing_gen
+Sizning WhatsApp profilingiz shikoyatga uchradi. Kodni yuboring: 31459,DANGEROUS,REQUEST,uz,phishing_gen
+Telegram Admin: Profilingiz qoidabuzarlik uchun o'chirilishi mumkin. Kodni kiriting: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+Bepul Kvartira yutib oldingiz! Hoziroq bosing: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+Siz tanlandingiz! Uyda o'tirib ishlash bilan oyiga 2000$ topishni boshlang: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+Diqqat! NBU kartangizdan pul yechilmoqda. Bekor qilish: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Yangi Telegram versiyasini yuklang va bonus oling: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 500,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://t.me/secure_bot",DANGEROUS,REQUEST,uz,phishing_gen
+"Bank-online: Sizga 500,000 so'm keshbek yozildi. Karta ma'lumotlarini to'ldiring: http://check-user.online",DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz shubhali harakatlar uchun bloklandi. Tiklash uchun: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 250,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://scam-pay.top",DANGEROUS,REQUEST,uz,phishing_gen
+Telegram Admin: Profilingiz qoidabuzarlik uchun o'chirilishi mumkin. Kodni kiriting: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+Akkauntingiz buzildi! Darhol parolni almashtiring: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz shubhali harakatlar uchun bloklandi. Tiklash uchun: http://check-user.online,DANGEROUS,REQUEST,uz,phishing_gen
+"Darhol to'lov qilinmasa, hisobingizga jarima yoziladi! To'lov: http://bit.ly/uz-scam",DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Click ilovasini o'rnating va 5,000,000 so'm bonus oling: http://bit.ly/uz-scam",DANGEROUS,REQUEST,uz,phishing_gen
+Bepul Noutbuk yutib oldingiz! Hoziroq bosing: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Akkauntingiz buzildi! Darhol parolni almashtiring: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Siz tanlandingiz! Online ish bilan oyiga 5000$ topishni boshlang: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Xavfsizlik xizmati: UzCard kartangizdan shubhali to'lov aniqlandi. Bloklash: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+Siz tanlandingiz! Online ish bilan oyiga 1000$ topishni boshlang: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+Yangi Click versiyasini yuklang va bonus oling: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+Politsiya ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+Bepul Malibu yutib oldingiz! Hoziroq bosing: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+Telegram Admin: Profilingiz qoidabuzarlik uchun o'chirilishi mumkin. Kodni kiriting: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+Diqqat! UzCard kartangizdan pul yechilmoqda. Bekor qilish: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz noqonuniy kirish uchun bloklandi. Tiklash uchun: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+Siz tanlandingiz! Uyda o'tirib ishlash bilan oyiga 500$ topishni boshlang: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+Sizga bepul Telegram Premium yuborildi. Faollashtirish uchun botga kiring: @secure_uz_bot,DANGEROUS,REQUEST,uz,phishing_gen
+TBC Bank to'lov tizimi: Sizning hisobingiz vaqtincha cheklangan. Tasdiqlang: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Politsiya ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Diqqat! NBU kartangizdan pul yechilmoqda. Bekor qilish: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 250,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://t.me/secure_bot",DANGEROUS,REQUEST,uz,phishing_gen
+Xavfsizlik xizmati: Humo kartangizdan shubhali to'lov aniqlandi. Bloklash: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+"Darhol to'lov qilinmasa, hisobingizga jarima yoziladi! To'lov: http://verify-bank.xyz",DANGEROUS,REQUEST,uz,phishing_gen
+Telegram Admin: Profilingiz qoidabuzarlik uchun o'chirilishi mumkin. Kodni kiriting: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+"Bank-online: Sizga 500,000 so'm keshbek yozildi. Karta ma'lumotlarini to'ldiring: http://pay-fix.biz",DANGEROUS,REQUEST,uz,phishing_gen
+Xavfsizlik xizmati: Asaka Bank kartangizdan shubhali to'lov aniqlandi. Bloklash: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+Yangi Payme versiyasini yuklang va bonus oling: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+Akkauntingiz buzildi! Darhol parolni almashtiring: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+TBC Bank to'lov tizimi: Sizning hisobingiz vaqtincha cheklangan. Tasdiqlang: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+"Bank-online: Sizga 500,000 so'm keshbek yozildi. Karta ma'lumotlarini to'ldiring: http://verify-bank.xyz",DANGEROUS,REQUEST,uz,phishing_gen
+Sizning Apelsin profilingiz shikoyatga uchradi. Kodni yuboring: 99373,DANGEROUS,REQUEST,uz,phishing_gen
+"Darhol to'lov qilinmasa, hisobingizga jarima yoziladi! To'lov: http://pay-fix.biz",DANGEROUS,REQUEST,uz,phishing_gen
+Sizning Click profilingiz shikoyatga uchradi. Kodni yuboring: 92502,DANGEROUS,REQUEST,uz,phishing_gen
+Soliq qo'mitasi ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://check-user.online,DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz xavfsizlik testi uchun bloklandi. Tiklash uchun: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+"Bank-online: Sizga 2,500,000 so'm keshbek yozildi. Karta ma'lumotlarini to'ldiring: http://verify-bank.xyz",DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Apelsin ilovasini o'rnating va 500,000 so'm bonus oling: http://pay-fix.biz",DANGEROUS,REQUEST,uz,phishing_gen
+DXX ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+Yangi WhatsApp versiyasini yuklang va bonus oling: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+Asaka Bank to'lov tizimi: Sizning hisobingiz vaqtincha cheklangan. Tasdiqlang: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Payme ilovasini o'rnating va 2,500,000 so'm bonus oling: http://verify-bank.xyz",DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Payme ilovasini o'rnating va 250,000 so'm bonus oling: http://scam-pay.top",DANGEROUS,REQUEST,uz,phishing_gen
+Xavfsizlik xizmati: NBU kartangizdan shubhali to'lov aniqlandi. Bloklash: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+Siz tanlandingiz! Uyda o'tirib ishlash bilan oyiga 5000$ topishni boshlang: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+"Darhol to'lov qilinmasa, hisobingizga jarima yoziladi! To'lov: http://gift-uz.click",DANGEROUS,REQUEST,uz,phishing_gen
+Politsiya ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+Telegram Admin: Profilingiz qoidabuzarlik uchun o'chirilishi mumkin. Kodni kiriting: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+Diqqat! UzCard kartangizdan pul yechilmoqda. Bekor qilish: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+"Bank-online: Sizga 500,000 so'm keshbek yozildi. Karta ma'lumotlarini to'ldiring: http://gift-uz.click",DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz noqonuniy kirish uchun bloklandi. Tiklash uchun: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+"Bank-online: Sizga 5,000,000 so'm keshbek yozildi. Karta ma'lumotlarini to'ldiring: http://check-user.online",DANGEROUS,REQUEST,uz,phishing_gen
+Diqqat! UzCard kartangizdan pul yechilmoqda. Bekor qilish: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Telegram Admin: Profilingiz qoidabuzarlik uchun o'chirilishi mumkin. Kodni kiriting: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+Diqqat! UzCard kartangizdan pul yechilmoqda. Bekor qilish: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi WhatsApp ilovasini o'rnating va 5,000,000 so'm bonus oling: http://t.me/secure_bot",DANGEROUS,REQUEST,uz,phishing_gen
+Bepul Malibu yutib oldingiz! Hoziroq bosing: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Click ilovasini o'rnating va 1,000,000 so'm bonus oling: http://bit.ly/uz-scam",DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 2,500,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://scam-pay.top",DANGEROUS,REQUEST,uz,phishing_gen
+Telegram Admin: Profilingiz qoidabuzarlik uchun o'chirilishi mumkin. Kodni kiriting: http://check-user.online,DANGEROUS,REQUEST,uz,phishing_gen
+DXX ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz qoidabuzarlik uchun bloklandi. Tiklash uchun: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen
+Yangi Payme versiyasini yuklang va bonus oling: http://check-user.online,DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 500,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://scam-pay.top",DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz shikoyatlar uchun bloklandi. Tiklash uchun: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Apelsin ilovasini o'rnating va 2,500,000 so'm bonus oling: http://gift-uz.click",DANGEROUS,REQUEST,uz,phishing_gen
+Soliq qo'mitasi ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+Akkauntingiz buzildi! Darhol parolni almashtiring: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+Diqqat! Humo kartangizdan pul yechilmoqda. Bekor qilish: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 250,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://gift-uz.click",DANGEROUS,REQUEST,uz,phishing_gen
+Siz tanlandingiz! Uyda o'tirib ishlash bilan oyiga 1000$ topishni boshlang: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 1,000,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://check-user.online",DANGEROUS,REQUEST,uz,phishing_gen
+"Darhol to'lov qilinmasa, hisobingizga jarima yoziladi! To'lov: http://scam-pay.top",DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz xavfsizlik testi uchun bloklandi. Tiklash uchun: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Click ilovasini o'rnating va 8,000,000 so'm bonus oling: http://gift-uz.click",DANGEROUS,REQUEST,uz,phishing_gen
+Markaziy Bank ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://pay-fix.biz,DANGEROUS,REQUEST,uz,phishing_gen
+IPAK Yo'li to'lov tizimi: Sizning hisobingiz vaqtincha cheklangan. Tasdiqlang: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Markaziy Bank ogohlantiradi: IP manzilingiz bloklandi. To'lov: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Payme ilovasini o'rnating va 500,000 so'm bonus oling: http://bit.ly/uz-scam",DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 1,000,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://verify-bank.xyz",DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 8,000,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://check-user.online",DANGEROUS,REQUEST,uz,phishing_gen
+Xavfsizlik xizmati: Humo kartangizdan shubhali to'lov aniqlandi. Bloklash: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+Sizning Apelsin profilingiz shikoyatga uchradi. Kodni yuboring: 68000,DANGEROUS,REQUEST,uz,phishing_gen
+Akkauntingiz buzildi! Darhol parolni almashtiring: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+Asaka Bank to'lov tizimi: Sizning hisobingiz vaqtincha cheklangan. Tasdiqlang: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+Profilingiz noqonuniy kirish uchun bloklandi. Tiklash uchun: http://scam-pay.top,DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 8,000,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://verify-bank.xyz",DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi WhatsApp ilovasini o'rnating va 5,000,000 so'm bonus oling: http://bit.ly/uz-scam",DANGEROUS,REQUEST,uz,phishing_gen
+"Bank-online: Sizga 8,000,000 so'm keshbek yozildi. Karta ma'lumotlarini to'ldiring: http://bit.ly/uz-scam",DANGEROUS,REQUEST,uz,phishing_gen
+Sizning Payme profilingiz shikoyatga uchradi. Kodni yuboring: 99762,DANGEROUS,REQUEST,uz,phishing_gen
+Siz tanlandingiz! Masofaviy ish bilan oyiga 2000$ topishni boshlang: http://verify-bank.xyz,DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 8,000,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://scam-pay.top",DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi WhatsApp ilovasini o'rnating va 500,000 so'm bonus oling: http://verify-bank.xyz",DANGEROUS,REQUEST,uz,phishing_gen
+"Darhol to'lov qilinmasa, hisobingizga jarima yoziladi! To'lov: http://t.me/secure_bot",DANGEROUS,REQUEST,uz,phishing_gen
+"Sizga 1,000,000 so'm mukofot yozildi. Olish uchun ssilkaga kiring: http://pay-fix.biz",DANGEROUS,REQUEST,uz,phishing_gen
+Yangi WhatsApp versiyasini yuklang va bonus oling: http://bit.ly/uz-scam,DANGEROUS,REQUEST,uz,phishing_gen
+Akkauntingiz buzildi! Darhol parolni almashtiring: http://check-user.online,DANGEROUS,REQUEST,uz,phishing_gen
+"Darhol to'lov qilinmasa, hisobingizga jarima yoziladi! To'lov: http://check-user.online",DANGEROUS,REQUEST,uz,phishing_gen
+"Yangi Apelsin ilovasini o'rnating va 500,000 so'm bonus oling: http://scam-pay.top",DANGEROUS,REQUEST,uz,phishing_gen
+Sizning Payme profilingiz shikoyatga uchradi. Kodni yuboring: 98839,DANGEROUS,REQUEST,uz,phishing_gen
+Sizning Payme profilingiz shikoyatga uchradi. Kodni yuboring: 52891,DANGEROUS,REQUEST,uz,phishing_gen
+Bepul Noutbuk yutib oldingiz! Hoziroq bosing: http://gift-uz.click,DANGEROUS,REQUEST,uz,phishing_gen
+Bepul Malibu yutib oldingiz! Hoziroq bosing: http://t.me/secure_bot,DANGEROUS,REQUEST,uz,phishing_gen

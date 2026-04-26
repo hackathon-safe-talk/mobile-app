@@ -1,0 +1,74 @@
+=== SafeTalk Model Evaluation Summary V6 ===
+Timestamp: 2026-03-16 05:52:51
+
+Dataset: messages_cleaned_v6.csv
+Total rows used: 11855
+Train set size: 9484
+Test set size: 2371
+
+=== Metrics (V6 Multilingual) ===
+Accuracy: 0.9785
+Scam Precision: 0.9978
+Scam Recall: 0.9488
+F1-Score (Scam): 0.9727
+
+Confusion Matrix:
+[[1412    2]
+ [  49  908]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.98      1414
+        scam       1.00      0.95      0.97       957
+
+    accuracy                           0.98      2371
+   macro avg       0.98      0.97      0.98      2371
+weighted avg       0.98      0.98      0.98      2371
+
+
+=== V5 vs V6 Comparison ===
+V6 includes 2,000 new multilingual and mixed-language messages.
+TF-IDF feature space expanded to 9,000.
+
+Summary of V5 Highlights:
+(Acc: ~97.6%, Recall: ~93.1% based on previous runs)
+
+Conclusion:
+Multilingual data significantly broadens the detection scope for mixed-language phishing common in CIS regions.
+
+=== V5 History (Reference) ===
+=== SafeTalk Model Evaluation Summary V5 ===
+Timestamp: 2026-03-16 05:31:55
+
+Dataset: messages_cleaned_v5.csv
+Total rows used: 9872
+Train set size: 7897
+Test set size: 1975
+
+=== Metrics ===
+Accuracy: 0.9767
+Scam Precision: 0.9984
+Scam Recall: 0.9315
+F1-Score (Scam): 0.9638
+
+Confusion Matrix:
+[[1317    1]
+ [  45  612]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.98      1318
+        scam       1.00      0.93      0.96       657
+
+    accuracy                           0.98      1975
+   macro avg       0.98      0.97      0.97      1975
+weighted avg       0.98      0.98      0.98      1975
+
+
+=== V4 vs V5 Benchmarks ===
+(Refer to model_report_v4.txt for exact precision)
+V5 targets 10,000 unified rows with 7,000 TF-IDF features.
+The recall for financial and security alerts should show measurable stability due to bulk auto-scaling.
+

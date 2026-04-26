@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SafeTalk" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#010409</item>
+        <item name="android:statusBarColor">#010409</item>
+        <item name="android:navigationBarColor">#010409</item>
+        <item name="android:windowSplashScreenBackground">#010409</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+    </style>
+</resources>

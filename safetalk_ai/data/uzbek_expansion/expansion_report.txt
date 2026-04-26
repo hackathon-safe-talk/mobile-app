@@ -1,0 +1,37 @@
+=== Uzbek Expansion Report ===
+Initial SMS Size: 80
+Initial Telegram Size: 80
+New SMS Rows Added: 142
+New Telegram Rows Added: 115
+Final SMS Size: 222
+Final Telegram Size: 195
+
+=== SMS Label Distribution ===
+label
+scam    115
+ham     107
+
+=== Telegram Label Distribution ===
+label
+scam    104
+ham      91
+
+=== Sample SMS Ham ===
+Ona, non bilan sut opkelaman
+Juma ayyomingiz muborak
+Imtihondan yaxshi o'tdim
+
+=== Sample SMS Scam ===
+Salom, men chet eldan yozibapman. Sizga katta meros qoldi, faqat 100 dollar komissiya tolang
+Qabul qilindi! Bepul vizaga ega bo'ldingiz
+Bank kartangiz 4 kun ichida bloklanadi. Parolni yangilang: xavf-bank4.uz
+
+=== Sample Tel Ham ===
+Uyga vazifa 5-mashq
+Bugungi video yozuvi kanalga tashlanadimi?
+Admin kim o'zi
+
+=== Sample Tel Scam ===
+Shu botga kirsangiz kim sizni nomerizni qanaqa nom bilan saqlaganini ko'rasiz!
+PariMatch rasmiy ssilkasi bonus
+Diqqat: guruhga yangi video tashlandi: 18+ xxxx.apk

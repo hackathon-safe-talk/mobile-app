@@ -1,0 +1,132 @@
+================================================================================
+DATASET: master_semantic_dataset_v9_cleaned
+PATH: data/processed/master_semantic_dataset_v9_cleaned.csv
+SIZE: 1057981 bytes
+================================================================================
+Headers: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+Total samples: 5087
+Label distribution: {'DANGEROUS': 407, 'SAFE': 2308, 'SUSPICIOUS': 2372}
+Language distribution: {'en': 3404, 'uz': 1182, 'mixed': 132, 'ru': 369}
+Source distribution: {'sms': 3525, 'telegram': 1014, 'seed': 284, 'hard_cases_v8': 132}
+
+================================================================================
+DATASET: master_semantic_dataset_v8_cleaned
+PATH: data/processed/master_semantic_dataset_v8_cleaned.csv
+SIZE: 1860710 bytes
+================================================================================
+Headers: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+Total samples: 9628
+Label distribution: {'SAFE': 4240, 'SUSPICIOUS': 5069, 'DANGEROUS': 319}
+Language distribution: {'en': 5239, 'uz': 3769, 'ru': 620}
+Source distribution: {'telegram': 2248, 'sms': 5375, 'seed': 1866, 'hard_cases_v8': 139}
+
+================================================================================
+DATASET: master_semantic_dataset_v8
+PATH: data/processed/master_semantic_dataset_v8.csv
+SIZE: 1716965 bytes
+================================================================================
+Headers: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+Total samples: 9628
+Label distribution: {'SAFE': 4240, 'SUSPICIOUS': 5069, 'DANGEROUS': 319}
+Language distribution: {'en': 5239, 'uz': 3769, 'ru': 620}
+Source distribution: {'telegram': 2248, 'sms': 5375, 'seed': 1866, 'hard_cases_v8': 139}
+
+================================================================================
+DATASET: master_semantic_dataset_v7_cleaned
+PATH: data/processed/master_semantic_dataset_v7_cleaned.csv
+SIZE: 2369449 bytes
+================================================================================
+Headers: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+Total samples: 12862
+Label distribution: {'SAFE': 4482, 'SUSPICIOUS': 6241, 'DANGEROUS': 2139}
+Language distribution: {'en': 5241, 'uz': 7001, 'ru': 620}
+Source distribution: {'telegram': 2250, 'sms': 5377, 'seed': 5235}
+
+================================================================================
+DATASET: master_semantic_dataset_v7
+PATH: data/processed/master_semantic_dataset_v7.csv
+SIZE: 2244160 bytes
+================================================================================
+Headers: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+Total samples: 12862
+Label distribution: {'SAFE': 4482, 'SUSPICIOUS': 6241, 'DANGEROUS': 2139}
+Language distribution: {'en': 5241, 'uz': 7001, 'ru': 620}
+Source distribution: {'telegram': 2250, 'sms': 5377, 'seed': 5235}
+
+================================================================================
+DATASET: messages_cleaned
+PATH: data/processed/messages_cleaned.csv
+SIZE: 1058815 bytes
+================================================================================
+Headers: ['text', 'source', 'label', 'clean_text']
+Total samples: 5906
+Label distribution: {'ham': 4892, 'scam': 1014}
+Language distribution: {}
+Source distribution: {'sms': 5749, 'telegram': 157}
+
+================================================================================
+DATASET: messages_cleaned_v2
+PATH: data/processed/messages_cleaned_v2.csv
+SIZE: 1105225 bytes
+================================================================================
+Headers: ['text', 'source', 'label', 'clean_text']
+Total samples: 6323
+Label distribution: {'ham': 5090, 'scam': 1233}
+Language distribution: {}
+Source distribution: {'sms': 5971, 'telegram': 352}
+
+================================================================================
+DATASET: messages_cleaned_v3
+PATH: data/processed/messages_cleaned_v3.csv
+SIZE: 1173561 bytes
+================================================================================
+Headers: ['text', 'source', 'label', 'clean_text']
+Total samples: 6623
+Label distribution: {'ham': 5090, 'scam': 1533}
+Language distribution: {}
+Source distribution: {'sms': 6271, 'telegram': 352}
+
+================================================================================
+DATASET: messages_cleaned_v4
+PATH: data/processed/messages_cleaned_v4.csv
+SIZE: 1236887 bytes
+================================================================================
+Headers: ['text', 'source', 'label', 'clean_text']
+Total samples: 6873
+Label distribution: {'ham': 5090, 'scam': 1783}
+Language distribution: {}
+Source distribution: {'sms': 6521, 'telegram': 352}
+
+================================================================================
+DATASET: messages_cleaned_v5
+PATH: data/processed/messages_cleaned_v5.csv
+SIZE: 1600687 bytes
+================================================================================
+Headers: ['text', 'source', 'label', 'clean_text']
+Total samples: 9872
+Label distribution: {'ham': 6589, 'scam': 3283}
+Language distribution: {}
+Source distribution: {'sms': 8058, 'telegram': 1814}
+
+================================================================================
+DATASET: messages_cleaned_v6
+PATH: data/processed/messages_cleaned_v6.csv
+SIZE: 1879152 bytes
+================================================================================
+Headers: ['text', 'source', 'label', 'clean_text']
+Total samples: 11855
+Label distribution: {'ham': 7072, 'scam': 4783}
+Language distribution: {}
+Source distribution: {'sms': 9020, 'telegram': 2835}
+
+================================================================================
+DATASET: unified_messages_raw
+PATH: data/processed/unified_messages_raw.csv
+SIZE: 577171 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 5909
+Label distribution: {'ham': 4894, 'scam': 1015}
+Language distribution: {}
+Source distribution: {'sms': 5751, 'telegram': 158}
+

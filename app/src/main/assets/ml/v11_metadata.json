@@ -1,0 +1,16 @@
+{
+    "version": "v11",
+    "tfidf_features": 15000,
+    "structured_features": 3,
+    "total_features": 15003,
+    "scaler_max_abs": [
+        917.0,
+        1.0,
+        1.0
+    ],
+    "scaler_scale": [
+        917.0,
+        1.0,
+        1.0
+    ]
+}

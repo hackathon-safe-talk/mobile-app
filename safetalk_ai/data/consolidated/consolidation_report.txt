@@ -1,0 +1,230 @@
+======================================================================
+SafeTalk Dataset Consolidation Report
+Generated: 2026-04-04T21:00:43.272828
+======================================================================
+
+1. TOTAL SAMPLES PER FINAL DATASET
+----------------------------------------
+  uzb_final1_dataset: 6270
+  rus_final1_dataset: 716
+  eng_final1_dataset: 9578
+  GRAND TOTAL: 16564
+
+2. DEDUPLICATION SUMMARY
+----------------------------------------
+  Total before dedup: 175094
+  Total after dedup:  16564
+  Total removed:      158530
+    uz: 48758 -> 6270 (removed 42488)
+    ru: 6160 -> 716 (removed 5444)
+    en: 120176 -> 9578 (removed 110598)
+
+3. DUPLICATES REMOVED PER LANGUAGE
+----------------------------------------
+  uz: 42488
+  ru: 5444
+  en: 110598
+
+4. TOP 10 MOST DUPLICATED TEXTS
+----------------------------------------
+
+  [UZ]:
+    1. (x744) Sizning hisobingiz xavf ostida! Kodni yuboring.
+    2. (x666) To'lovni tasdiqlash uchun CVV kodni ayting.
+    3. (x639) Karta raqami va CVV kodini ayting, tizimni tekshiramiz
+    4. (x606) Kodni hoziroq yozib yuboring, pul o'tkazish kerak
+    5. (x603) Tasdiqlash kodini menga yuboring, aks holda bloklanadi
+    6. (x297) Xavfsizlik yuzasidan kodni maxfiy tuting. Bank xodimlariga ham bermang.
+    7. (x273) Sovrin yutdingiz! http://lucky-draw.net orqali profilingizni tasdiqlang
+    8. (x249) Diqqat! Kodni faqat bank ilovasiga kiriting. Uni begonalarga ishonib topshirmang.
+    9. (x249) Yangi aksiya! 1 000 000 so'm yutib oling: http://lucky-draw.net
+    10. (x240) Yangi aksiya! 1 000 000 so'm yutib oling: http://bonusuz.click
+
+  [RU]:
+    1. (x37) Ищем людей для удалённой деятельности на Binance — подойдёт даже если вы только начинаете.
+
+- Первая
+    2. (x31) есть новый вид заработка -пиши подкину
+    3. (x23) Нужны 2-3 человека (18+) для удаленной деятельности от 300$ в день. Заинтересованных прошу писать ➕ 
+    4. (x22) Нужны люди в команду. Приятный ЗАРАБОТОК от 200 $ в день. Если интересует подробная информация " + "
+    5. (x22) Криптотрейдинг без просадок капитала — реальность, а не миф
+Так вы торгуете самостоятельно:
+🚩 Анализ
+    6. (x22) Здравствуйте! У кого есть автомобиль, нужна помощь с перевозкой вещей. Есть несколько коробок, пара 
+    7. (x21) Доход от $100 в день без риска и серых схем
+? Легально, прозрачно, без вложений в казино и сомнитель
+    8. (x21) 🏐Рассылка по  300 к чатам🏐
+ПОТОК КЛИЕНТОВ БЕЗ ЛИШНИХ УСИЛИЙ
+🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴🔴
+
+❕Заливаем целевую ауди
+    9. (x21) нужна молодежь для украшения  парку , 2-4 часа, дам 3700
+    10. (x20) Срочно ищем новых партнеров для УДАЛЕННОГО заработка.
+Прибыль каждый день от 100-140$, белый вид дох
+
+  [EN]:
+    1. (x79) Sorry, I'll call later
+    2. (x43) I cant pick the phone right now. Pls send a message
+    3. (x35) Sorry, I'll call later in meeting.
+    4. (x34) Ok...
+    5. (x32) ⭐USA_To_USA wire Accounts Available⭐
+⭐INTERNATIONAL wire Accounts Available_⭐
+⭐cashier check ⭐
+⭐USA 
+    6. (x28) Аккаунты Telegram, Gmail, Facebook, Instagram, TikTok, Twitter — свежак от производителя
+ @USERNAME_
+    7. (x27) Okie
+    8. (x26) Wen ur lovable bcums angry wid u, dnt take it seriously.. Coz being angry is d most childish n true 
+    9. (x26) Say this slowly.? GOD,I LOVE YOU &amp; I NEED YOU,CLEAN MY HEART WITH YOUR BLOOD.Send this to Ten sp
+    10. (x26) Ok
+
+5. LANGUAGE DETECTION CONFLICTS
+----------------------------------------
+  Total conflicts (existing vs detected): 12571
+  Total mixed cases: 3434
+
+  Sample conflicts (first 20):
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Menga 1650,000 so'm tashlab tura olasanmi?...
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 15:30 da ko'rishamiz..
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Dam olish kuningiz maroqli o'tsin
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 20:00 da ko'rishamiz.?
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 14:00 da ko'rishamiz. tezroq
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 19:30 da ko'rishamiz.?
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: go'sht narxi qancha ekan hozir?.
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 8:45 da ko'rishamiz.!
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 10:00 da ko'rishamiz. tezroq
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Guruhga yangi a'zolarni qo'shmanglar iltimos
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 12:30 da ko'rishamiz.?
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Menga 150,000 so'm tashlab tura olasanmi? tezroq
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 12:45 da ko'rishamiz.!
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 15:00 da ko'rishamiz.?
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 17:00 da ko'rishamiz..
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Menga 1460,000 so'm tashlab tura olasanmi? tezroq
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Bugun 14:15 da ko'rishamiz....
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Menga 360,000 so'm tashlab tura olasanmi?!
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Faylni yuklab oldim, rahmat
+    [master_semantic_dataset_v7.csv] existing=en, detected=uz: Menga 1920,000 so'm tashlab tura olasanmi?...
+
+  Sample mixed cases (first 20):
+    [messages_cleaned.csv] assigned=ru: 🔤🔤🔤🔤🔤🔤🔤🔤🔤🔤
+
+❗️❗️❗️ТРЕБУЮТСЯ ЛЮДИ❗️❗️❗️
+💵Высокая ЗП
+✍️Свободный гр@USERNAME_REDAC
+    [messages_cleaned.csv] assigned=ru: 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+
+🔸 🔸🔸🔸🔸
+
+✔️1.Oфopмлeниe вoдитeльcкoгo yдocтoвepeния 
+    [messages_cleaned.csv] assigned=ru: Пpиветcтвyю, y мeня ecть мaтepиaл пo тopгoвлe, инвecтициям, кpиптoвaлютaм и нeдв
+    [messages_cleaned.csv] assigned=ru: 3дpaвcтвyйтe, ecть пoлeзныe мaтepиaлы пo кpиптoвaлютaм, инвecтициям и тpeйдингy,
+    [messages_cleaned.csv] assigned=en: ❗️❗️❗️❗️❗️❗️❗️❗️
+
+💵ИЩEM ПАРТНЕРОВ B CФEPУ ЗAPAБOTKA HA TPEЙДИHГE KPИПTOBAЛЮTЫ 💵
+
+    [messages_cleaned.csv] assigned=ru: Лучшая тапалка в ТГ, всего за 15 минут можно натапать 2$, проверь сам 👉 https://
+    [messages_cleaned.csv] assigned=en: Аккаунты Telegram, Gmail, Facebook, Instagram, TikTok, Twitter — свежак от произ
+    [messages_cleaned.csv] assigned=en: Аккаунты Telegram, Gmail, Facebook, Instagram, TikTok, Twitter — свежак от произ
+    [messages_cleaned.csv] assigned=en: Автореги от производителя: Telegram, Gmail, Facebook, Instagram — цены от 0.18$ 
+    [messages_cleaned.csv] assigned=ru: 💵Дoxoд для нoвичкoв и пpoфи! Toлькo oфф бupжи (Бaйбuт, Бuтгeт, Kyкoин, ОKX), бeз
+    [messages_cleaned.csv] assigned=en: Все виды аккаунтов в одном месте: TG, Gmail, FB, IG, TikTok, Twitter @USERNAME_R
+    [messages_cleaned.csv] assigned=ru: Занятость с тeлeфона
+От 18!
+Можно без опыта
+@USERNAME_REDACTED
+    [messages_cleaned_v2.csv] assigned=ru: 🔤🔤🔤🔤🔤🔤🔤🔤🔤🔤
+
+❗️❗️❗️ТРЕБУЮТСЯ ЛЮДИ❗️❗️❗️
+💵Высокая ЗП
+✍️Свободный гр@USERNAME_REDAC
+    [messages_cleaned_v2.csv] assigned=ru: 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+
+🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+
+🔸 🔸🔸🔸🔸
+
+✔️1.Oфopмлeниe вoдитeльcкoгo yдocтoвepeния 
+    [messages_cleaned_v2.csv] assigned=ru: Пpиветcтвyю, y мeня ecть мaтepиaл пo тopгoвлe, инвecтициям, кpиптoвaлютaм и нeдв
+    [messages_cleaned_v2.csv] assigned=ru: 3дpaвcтвyйтe, ecть пoлeзныe мaтepиaлы пo кpиптoвaлютaм, инвecтициям и тpeйдингy,
+    [messages_cleaned_v2.csv] assigned=en: ❗️❗️❗️❗️❗️❗️❗️❗️
+
+💵ИЩEM ПАРТНЕРОВ B CФEPУ ЗAPAБOTKA HA TPEЙДИHГE KPИПTOBAЛЮTЫ 💵
+
+    [messages_cleaned_v2.csv] assigned=ru: Лучшая тапалка в ТГ, всего за 15 минут можно натапать 2$, проверь сам 👉 https://
+    [messages_cleaned_v2.csv] assigned=en: Аккаунты Telegram, Gmail, Facebook, Instagram, TikTok, Twitter — свежак от произ
+    [messages_cleaned_v2.csv] assigned=en: Аккаунты Telegram, Gmail, Facebook, Instagram, TikTok, Twitter — свежак от произ
+
+6. SOURCE CONTRIBUTION PER FINAL DATASET
+----------------------------------------
+
+  [UZ] (total: 6270):
+    master_semantic_dataset_v7.csv: 2442
+    messages_cleaned_v5.csv: 1942
+    messages_cleaned_v6.csv: 738
+    messages_cleaned_v3.csv: 300
+    messages_cleaned_v2.csv: 289
+    messages_cleaned_v4.csv: 250
+    master_semantic_dataset_v8.csv: 139
+    messages_cleaned.csv: 63
+    master_semantic_dataset_v9_cleaned.csv: 51
+    hardening_data_v9.csv: 42
+    translation_candidates.csv: 14
+
+  [RU] (total: 716):
+    messages_cleaned_v6.csv: 500
+    messages_cleaned.csv: 113
+    master_semantic_dataset_v9_cleaned.csv: 55
+    hardening_data_v9.csv: 42
+    master_semantic_dataset_v7.csv: 6
+
+  [EN] (total: 9578):
+    messages_cleaned.csv: 5728
+    master_semantic_dataset_v7.csv: 1839
+    messages_cleaned_v5.csv: 1057
+    messages_cleaned_v6.csv: 734
+    messages_cleaned_v2.csv: 128
+    sms_spam_collection.txt: 54
+    master_semantic_dataset_v9_cleaned.csv: 26
+    hardening_data_v9.csv: 7
+    unified_messages_raw.csv: 3
+    translation_candidates.csv: 2
+
+7. ALL DATASET FILES PROCESSED
+----------------------------------------
+  messages_cleaned.csv: 5906 rows
+  messages_cleaned_v2.csv: 6323 rows
+  messages_cleaned_v3.csv: 6623 rows
+  messages_cleaned_v4.csv: 6873 rows
+  messages_cleaned_v5.csv: 9872 rows
+  messages_cleaned_v6.csv: 11855 rows
+  unified_messages_raw.csv: 5909 rows
+  master_semantic_dataset_v7.csv: 12862 rows
+  master_semantic_dataset_v7_cleaned.csv: 12862 rows
+  master_semantic_dataset_v8.csv: 9628 rows
+  master_semantic_dataset_v8_cleaned.csv: 9628 rows
+  master_semantic_dataset_v9_cleaned.csv: 5087 rows
+  safetalk_unified_dataset.csv: 5909 rows
+  safetalk_unified_dataset_v2.csv: 6326 rows
+  safetalk_unified_dataset_v3.csv: 6626 rows
+  safetalk_unified_dataset_v4.csv: 6876 rows
+  safetalk_unified_dataset_v5.csv: 9875 rows
+  safetalk_unified_dataset_v6.csv: 11858 rows
+  hard_cases_v8.csv: 139 rows
+  hardening_data_v9.csv: 223 rows
+  realistic_v6_messages.csv: 2000 rows
+  uz_financial_scams.csv: 300 rows
+  uz_security_alert_scams.csv: 250 rows
+  sms_spam_collection.txt: 5574 rows
+  spam.csv: 5572 rows
+  sms_uz.csv: 40 rows
+  sms_uz_clean.csv: 40 rows
+  telegram_ham_samples.csv: 30 rows
+  telegram_spam_cleaned.csv: 199 rows
+  sms_uz_enriched.csv: 222 rows
+  telegram_uz_enriched.csv: 195 rows
+  translation_candidates.csv: 1177 rows
+  uz_dataset_v2.csv: 3000 rows
+  uzbek_policy_seeds.csv: 5235 rows
+  Total raw rows: 175094

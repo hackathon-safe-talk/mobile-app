@@ -1,0 +1,5 @@
+{
+    "SAFE": 0,
+    "SUSPICIOUS": 1,
+    "DANGEROUS": 2
+}

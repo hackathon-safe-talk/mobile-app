@@ -1,0 +1,13 @@
+{
+  "version": "v5",
+  "dataset": "safetalk_unified_dataset_v5.csv",
+  "model": "LogisticRegression",
+  "tfidf_features": 7000,
+  "metrics": {
+    "accuracy": 0.9767,
+    "scam_precision": 0.9984,
+    "scam_recall": 0.9315
+  },
+  "status": "Official Baseline",
+  "comment": "Scaled to 10K messages with heavy focus on Uzbek financial and security phishing vectors."
+}

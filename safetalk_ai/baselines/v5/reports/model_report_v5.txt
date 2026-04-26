@@ -1,0 +1,33 @@
+=== SafeTalk Model Evaluation Summary V5 ===
+Timestamp: 2026-03-16 05:31:55
+
+Dataset: messages_cleaned_v5.csv
+Total rows used: 9872
+Train set size: 7897
+Test set size: 1975
+
+=== Metrics ===
+Accuracy: 0.9767
+Scam Precision: 0.9984
+Scam Recall: 0.9315
+F1-Score (Scam): 0.9638
+
+Confusion Matrix:
+[[1317    1]
+ [  45  612]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.98      1318
+        scam       1.00      0.93      0.96       657
+
+    accuracy                           0.98      1975
+   macro avg       0.98      0.97      0.97      1975
+weighted avg       0.98      0.98      0.98      1975
+
+
+=== V4 vs V5 Benchmarks ===
+(Refer to model_report_v4.txt for exact precision)
+V5 targets 10,000 unified rows with 7,000 TF-IDF features.
+The recall for financial and security alerts should show measurable stability due to bulk auto-scaling.

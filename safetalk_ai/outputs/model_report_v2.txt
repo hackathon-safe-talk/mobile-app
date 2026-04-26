@@ -1,0 +1,35 @@
+=== SafeTalk Model Evaluation Summary V2 ===
+Timestamp: 2026-03-16 04:26:48
+
+Dataset: messages_cleaned_v2.csv
+Total rows used: 6323
+
+=== Model Configuration ===
+Algorithm: LogisticRegression(max_iter=1000)
+Feature Extraction: TfidfVectorizer(ngram_range=(1, 2), max_features=5000, min_df=1)
+Train/Test Split: 80/20 (Stratified)
+
+=== Metrics ===
+Accuracy: 0.9589
+Scam Precision: 0.9949
+Scam Recall: 0.7935
+F1-Score (Scam): 0.8829
+
+Confusion Matrix:
+[[1017    1]
+ [  51  196]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.95      1.00      0.98      1018
+        scam       0.99      0.79      0.88       247
+
+    accuracy                           0.96      1265
+   macro avg       0.97      0.90      0.93      1265
+weighted avg       0.96      0.96      0.96      1265
+
+
+=== Conclusion ===
+The model was retrained on the newly expanded Uzbek dataset.
+Compare these metrics against v1 offline logs to confirm performance improvements in the target language.

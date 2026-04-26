@@ -1,0 +1,37 @@
+=== SafeTalk Model V5 Frozen Baseline Predictions ===
+
+Original: Kartangiz bloklandi darhol tasdiqlang
+Prediction: scam
+Scam probability: 0.7607
+Risk band: Dangerous
+----------------------------------------
+Original: Hisobingizdan 900000 so'm yechildi
+Prediction: ham
+Scam probability: 0.4990
+Risk band: Suspicious
+----------------------------------------
+Original: Agar bu siz bo'lmasangiz tasdiqlang
+Prediction: scam
+Scam probability: 0.7784
+Risk band: Dangerous
+----------------------------------------
+Original: Telegram premium sovg'a olish uchun bosing
+Prediction: scam
+Scam probability: 0.9628
+Risk band: Dangerous
+----------------------------------------
+Original: To'lov amalga oshmadi havola orqali tasdiqlang
+Prediction: scam
+Scam probability: 0.9385
+Risk band: Dangerous
+----------------------------------------
+Original: Bugun dars nechida boshlanadi
+Prediction: ham
+Scam probability: 0.0847
+Risk band: Safe
+----------------------------------------
+Original: Onam aytdi non opkel
+Prediction: ham
+Scam probability: 0.1688
+Risk band: Safe
+----------------------------------------

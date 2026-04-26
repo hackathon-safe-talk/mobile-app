@@ -1,0 +1,32 @@
+=== SafeTalk Model Evaluation Summary V3 ===
+Timestamp: 2026-03-16 04:41:14
+
+Dataset: messages_cleaned_v3.csv
+Total rows used: 6623
+Train set size: 5298
+Test set size: 1325
+
+=== Metrics ===
+Accuracy: 0.9577
+Scam Precision: 0.9922
+Scam Recall: 0.8241
+F1-Score (Scam): 0.9004
+
+Confusion Matrix:
+[[1016    2]
+ [  54  253]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         ham       0.95      1.00      0.97      1018
+        scam       0.99      0.82      0.90       307
+
+    accuracy                           0.96      1325
+   macro avg       0.97      0.91      0.94      1325
+weighted avg       0.96      0.96      0.96      1325
+
+
+=== Conclusion ===
+V3 incorporates 300 strictly focused Uzbek financial phishing records. 
+Performance should highlight improved anomaly detection on zero-day phrasing over V2 baseline metrics.

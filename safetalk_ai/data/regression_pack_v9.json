@@ -1,0 +1,695 @@
+[
+    {
+        "text": "Bank: Hisobingizga 500,000 so'm tushdi. Balans: 1,200,300 so'm.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning kirish kodingiz: 123456. Hech kimga bermang.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Apple ID: Your account was accessed from a new device. If this was you, ignore.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Click: Humo kartadan 5,000 so'm yechildi. Mashrut: UzAuto.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Loginni tasdiqlang: http://my.gov.uz/auth",
+        "expected": "SAFE",
+        "predicted": "DANGEROUS",
+        "category": "SAFE_HARD",
+        "status": "FAIL"
+    },
+    {
+        "text": "To'lov qabul qilindi. Tranzaksiya №998231. Rahmat!",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Hurmatli mijoz, sizning Humo kartangiz muddati tugayapti. Yangilang.",
+        "expected": "SAFE",
+        "predicted": "DANGEROUS",
+        "category": "SAFE_HARD",
+        "status": "FAIL"
+    },
+    {
+        "text": "Sizning vaqtinchalik parolingiz: 098124. ClickEvolution xodimlariga aytmang.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Yandex Go: Haydovchi yetib keldi. Mashina: 01A123BC.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Uzbekistan Airways: Reysingiz kechikmoqda. Ma'lumot: uzairways.com",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "SAFE_HARD",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ajoyib yutuq! Siz iPhone 15 yutib oldingiz. Tezda ko'ring!",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Siz uchun maxsus sovg'a tayyorlangan. Qachon olib ketasiz?",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Bugun hamma uchun bonuslar tarqatilyapti. Aktiv bo'ling!",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Tezda pul kerakmi? Kuniga 100$ topish siri mana bu yerda.",
+        "expected": "SUSPICIOUS",
+        "predicted": "DANGEROUS",
+        "category": "SUSP_BAIT",
+        "status": "FAIL"
+    },
+    {
+        "text": "Qoyil! Sizning raqamingiz g'olib deb topildi. Sovg'ani oling.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Kutilmagan xabar! Sizga pul yuborilgan, tekshirib ko'ring.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SAFE",
+        "category": "SUSP_BAIT",
+        "status": "FAIL"
+    },
+    {
+        "text": "Shoshiling! Shartlarni bajaring va sovg'ani oling. Vaqt cheklangan.",
+        "expected": "SUSPICIOUS",
+        "predicted": "DANGEROUS",
+        "category": "SUSP_PRESSURE",
+        "status": "FAIL"
+    },
+    {
+        "text": "Profilingizni hoziroq yangilang, aks holda bazi funksiyalar o'chadi.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SAFE",
+        "category": "SUSP_PRESSURE",
+        "status": "FAIL"
+    },
+    {
+        "text": "Oxirgi imkoniyat! Ro'yxatdan o'ting va 1,000,000 bonus oling.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_PRESSURE",
+        "status": "PASS"
+    },
+    {
+        "text": "Bugunoq aktivlashtiring, aks holda akkauntingiz bloklanadi.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_PRESSURE",
+        "status": "PASS"
+    },
+    {
+        "text": "Hisobingiz bloklandi! Darhol login qiling: http://verify-click.uz",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Akkauntingizga begonalar kirdi. Parolni o'zgartiring: http://tg-verify.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Verify your identity to avoid suspension: http://bank-auth.xyz",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Security Alert! Please confirm your access: http://uz-secure.top/auth",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Внимание! Подозрительный вход. Подтвердите логин: http://scam.ru",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizga 1,000,000 so'm yordam puli. Karta raqamingizni kiriting: http://uz-scam.top",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_PAYMENT",
+        "status": "PASS"
+    },
+    {
+        "text": "Kompensatsiya olish uchun karta ma'lumotlarini kiriting: http://pay-secure.online",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_PAYMENT",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta raqamingizni kiriting va yutuqni yechib oling: http://gift-card.xyz",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_PAYMENT",
+        "status": "PASS"
+    },
+    {
+        "text": "Moddiy yordam tarqatilyapti. Kartagizni bog'lang: http://subsidiya.tk",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_PAYMENT",
+        "status": "PASS"
+    },
+    {
+        "text": "Yangi ClickEvolution ilovasini o'rnating: http://click.apk",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_APK",
+        "status": "PASS"
+    },
+    {
+        "text": "Tahlil natijasini yuklab oling: diagnostic_report.apk",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_APK",
+        "status": "PASS"
+    },
+    {
+        "text": "Shoshiling! Yangi dastur orqali internetni tekin qiling: free_net.apk",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_APK",
+        "status": "PASS"
+    },
+    {
+        "text": "Telegramingizni himoya qiling, ushbu faylni o'rnating: safe_tg.apk",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_APK",
+        "status": "PASS"
+    },
+    {
+        "text": "Bank xodimi: SMS kodni ayting, xatolikni tuzatib beramiz.",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_OTP",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizga kod keldi, uni manga yuboring, pulingizni qaytaraman.",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_OTP",
+        "status": "PASS"
+    },
+    {
+        "text": "Tezda SMS kodingizni menga bering, bo'lmasa kartangiz bloklanadi.",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_OTP",
+        "status": "PASS"
+    },
+    {
+        "text": "Ваш заказ №552 доставлен. Спасибо за покупку!",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "RU_ONLY",
+        "status": "PASS"
+    },
+    {
+        "text": "Списание 500р. Баланс: 120р. Сбербанк Онлайн.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "RU_ONLY",
+        "status": "PASS"
+    },
+    {
+        "text": "Внимание! Подозрительный вход в ваш аккаунт Сбербанк.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SAFE",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Спеши получить бонус в размере 5000 рублей по ссылке.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "PASS"
+    },
+    {
+        "text": "Аккаунт заблокирован! Подтвердите личность: http://lk-verify.ru",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "RU_ONLY",
+        "status": "PASS"
+    },
+    {
+        "text": "Вам начислена соцвыплата. Введите данные карты: http://soc-pay.su",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "RU_ONLY",
+        "status": "PASS"
+    },
+    {
+        "text": "Security Alert: Hisobingizga begona kirdi. Please verify: http://sec.top",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "MIXED",
+        "status": "PASS"
+    },
+    {
+        "text": "Внимание! Siz yutuq egasi bo'ldingiz. Sovg'ani oling: http://prize.xyz",
+        "expected": "SUSPICIOUS",
+        "predicted": "DANGEROUS",
+        "category": "MIXED",
+        "status": "FAIL"
+    },
+    {
+        "text": "Assalomu alaykum! Srochno kiring mana bu yerga: http://urg.bz",
+        "expected": "SUSPICIOUS",
+        "predicted": "DANGEROUS",
+        "category": "MIXED",
+        "status": "FAIL"
+    },
+    {
+        "text": "Payment successful. Tranzaksiya muvaffaqiyatli yakunlandi.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "MIXED",
+        "status": "PASS"
+    },
+    {
+        "text": "Kod podtverjdeniya: 1122. Uni hech kimga bermang.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "MIXED",
+        "status": "PASS"
+    },
+    {
+        "text": "Hsobingiz blklandi!!! Tezda krish: http://scam.xyz",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "NOISY",
+        "status": "PASS"
+    },
+    {
+        "text": "S@lv3! Y@ng1 pr0f1l m@n@ bu y3rd@: http://tg.link",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "NOISY",
+        "status": "PASS"
+    },
+    {
+        "text": "Kod: 9982. Aytmang hch kmga.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "NOISY",
+        "status": "PASS"
+    },
+    {
+        "text": "T0'l0v qabul qlndi. R@hm@t!",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "NOISY",
+        "status": "PASS"
+    },
+    {
+        "text": "Telegram Premium yutib oldingiz! Olish uchun: http://tg-gift.click",
+        "expected": "DANGEROUS",
+        "predicted": "SUSPICIOUS",
+        "category": "TG_SCAM",
+        "status": "FAIL"
+    },
+    {
+        "text": "Sizga Telegram Stars sovg'a qilindi. Aktivlashtirish: http://stars-uz.top",
+        "expected": "DANGEROUS",
+        "predicted": "SUSPICIOUS",
+        "category": "TG_SCAM",
+        "status": "FAIL"
+    },
+    {
+        "text": "Adminga murojaat qiling va 1000 Stars oling: @tg_scam_admin",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "TG_SCAM",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *0000 orqali to'lov 0 so'm. Kod: 833",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *1111 orqali to'lov 1000 so'm. Kod: 688",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *2222 orqali to'lov 2000 so'm. Kod: 618",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *3333 orqali to'lov 3000 so'm. Kod: 292",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *4444 orqali to'lov 4000 so'm. Kod: 677",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *5555 orqali to'lov 5000 so'm. Kod: 891",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *6666 orqali to'lov 6000 so'm. Kod: 306",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *7777 orqali to'lov 7000 so'm. Kod: 891",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *8888 orqali to'lov 8000 so'm. Kod: 527",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Karta *9999 orqali to'lov 9000 so'm. Kod: 669",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "category": "SAFE_HARD",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Iphone bloklandi. Kirish: http://scam-0.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Karta bloklandi. Kirish: http://scam-1.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Akkaunt bloklandi. Kirish: http://scam-2.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Iphone bloklandi. Kirish: http://scam-3.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Karta bloklandi. Kirish: http://scam-4.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Akkaunt bloklandi. Kirish: http://scam-5.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Iphone bloklandi. Kirish: http://scam-6.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Karta bloklandi. Kirish: http://scam-7.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Akkaunt bloklandi. Kirish: http://scam-8.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Sizning Iphone bloklandi. Kirish: http://scam-9.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "category": "DANG_LOGIN",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 1! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 2! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 3! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 4! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 5! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 6! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 7! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 8! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 9! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Maxsus taklif 10! Faqat bugun bizning kanalda yutuqlar.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "category": "SUSP_BAIT",
+        "status": "PASS"
+    },
+    {
+        "text": "Ваш пароль для входа: 4414. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 2754. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 9906. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 8853. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 2546. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 5771. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 7001. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 5687. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 4981. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 2799. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 7393. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 8157. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 5474. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 9972. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    },
+    {
+        "text": "Ваш пароль для входа: 2064. Не сообщайте его никому.",
+        "expected": "SAFE",
+        "predicted": "SUSPICIOUS",
+        "category": "RU_ONLY",
+        "status": "FAIL"
+    }
+]

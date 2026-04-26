@@ -1,0 +1,20 @@
+{
+  "version": "v5",
+  "dataset": "safetalk_unified_dataset_v5.csv",
+  "dataset_size": "~9872",
+  "model_type": "LogisticRegression",
+  "vectorizer": "TF-IDF",
+  "tfidf_ngram_range": [1, 2],
+  "tfidf_max_features": 7000,
+  "accuracy": 0.9767,
+  "scam_precision": 0.9984,
+  "scam_recall": 0.9315,
+  "scam_f1_score": 0.9638,
+  "risk_thresholds": {
+    "safe_max": 19.99,
+    "suspicious_min": 20,
+    "suspicious_max": 54.99,
+    "dangerous_min": 55
+  },
+  "note": "V5 frozen offline baseline. Not connected to Android SafeTalk app."
+}

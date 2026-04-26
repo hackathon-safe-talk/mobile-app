@@ -1,0 +1,43 @@
+=== SafeTalk Risk Calibration Report V4 ===
+Threshold rules applied:
+- 0 to 29.99% scam probability -> Safe
+- 30 to 59.99% scam probability -> Suspicious
+- 60 to 100% scam probability -> Dangerous
+
+=== Tested Messages ===
+Message: Kartangiz bloklandi darhol tasdiqlang
+Scam Probability: 0.6875  |  Risk Band: Dangerous
+
+Message: Hisobingizdan 900000 so'm yechildi
+Scam Probability: 0.2349  |  Risk Band: Safe
+
+Message: Agar bu siz bo'lmasangiz havola orqali bekor qiling
+Scam Probability: 0.8632  |  Risk Band: Dangerous
+
+Message: Yangi qurilmadan hisobingizga kirish aniqlandi
+Scam Probability: 0.6926  |  Risk Band: Dangerous
+
+Message: To'lov amalga oshmadi tasdiqlash talab qilinadi
+Scam Probability: 0.8521  |  Risk Band: Dangerous
+
+Message: Telegram premium sovg'a olish uchun bosing
+Scam Probability: 0.8804  |  Risk Band: Dangerous
+
+Message: Guruhga yangi video tashlandi 18 plus apk yuklab oling
+Scam Probability: 0.6948  |  Risk Band: Dangerous
+
+Message: Bugun dars nechida boshlanadi
+Scam Probability: 0.1074  |  Risk Band: Safe
+
+Message: Onam aytdi non opkel
+Scam Probability: 0.1808  |  Risk Band: Safe
+
+Message: Ertaga soat 9 da uchrashamiz
+Scam Probability: 0.0690  |  Risk Band: Safe
+
+=== Conclusion & Threshold Suggestion ===
+Current thresholds (30/60) adequately capture the highly dangerous vectors in the 'Dangerous' band.
+However, 'Hisobingizdan 900000 so'm yechildi' scores ~23% and is marked 'Safe'.
+Since financial withdrawals without explicit CTAs can be precursors to social engineering,
+adjusting the 'Suspicious' threshold down to 20% (e.g., 20/55) may provide better early-warning coverage
+while keeping pure ham ('Safe' < 20%) distinct. Suggest evaluating 20/55 or 25/55 in future iterations.

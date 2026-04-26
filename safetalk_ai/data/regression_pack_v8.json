@@ -1,0 +1,98 @@
+[
+    {
+        "text": "Loginni tasdiqlash uchun SMS kodi: 1234. Uni hech kimga bermang.",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "status": "PASS",
+        "probabilities": {
+            "DANGEROUS": 0.09321789194891873,
+            "SAFE": 0.8912391961060802,
+            "SUSPICIOUS": 0.015542911945000942
+        },
+        "category": "hard_negative"
+    },
+    {
+        "text": "Sizning Humo kartangizdan 50,000 so'm yechildi. http://bank.uz",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "status": "PASS",
+        "probabilities": {
+            "DANGEROUS": 0.08493498519792402,
+            "SAFE": 0.7562624237697143,
+            "SUSPICIOUS": 0.15880259103236163
+        },
+        "category": "hard_negative"
+    },
+    {
+        "text": "Yandex Go: Haydovchi yetib keldi. Mashina: 01A777AA",
+        "expected": "SAFE",
+        "predicted": "SAFE",
+        "status": "PASS",
+        "probabilities": {
+            "DANGEROUS": 0.005971803231387567,
+            "SAFE": 0.8030680397103765,
+            "SUSPICIOUS": 0.19096015705823574
+        },
+        "category": "service"
+    },
+    {
+        "text": "Ajoyib imkoniyat! Bugunoq ro'yxatdan o'ting.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "status": "PASS",
+        "probabilities": {
+            "DANGEROUS": 0.027617905073678964,
+            "SAFE": 0.4256704304059221,
+            "SUSPICIOUS": 0.5467116645203989
+        },
+        "category": "promo"
+    },
+    {
+        "text": "Profilingizni yangilang va bonus oling.",
+        "expected": "SUSPICIOUS",
+        "predicted": "SUSPICIOUS",
+        "status": "PASS",
+        "probabilities": {
+            "DANGEROUS": 0.11558731999149807,
+            "SAFE": 0.03693401236283273,
+            "SUSPICIOUS": 0.8474786676456691
+        },
+        "category": "bait"
+    },
+    {
+        "text": "Hisobingiz bloklandi! Darhol login qiling: http://verify.click",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "status": "PASS",
+        "probabilities": {
+            "DANGEROUS": 0.9576891986435973,
+            "SAFE": 0.008625285673139698,
+            "SUSPICIOUS": 0.033685515683262966
+        },
+        "category": "phishing"
+    },
+    {
+        "text": "Sizga 1,000,000 so'm yordam puli berildi. Karta raqamingizni kiriting: http://uz-scam.top",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "status": "PASS",
+        "probabilities": {
+            "DANGEROUS": 0.9826506161571263,
+            "SAFE": 0.004658813786006245,
+            "SUSPICIOUS": 0.0126905700568673
+        },
+        "category": "finance_scam"
+    },
+    {
+        "text": "Yangi ClickEvolution ilovasini o'rnating: http://click.apk",
+        "expected": "DANGEROUS",
+        "predicted": "DANGEROUS",
+        "status": "PASS",
+        "probabilities": {
+            "DANGEROUS": 0.9757488724884463,
+            "SAFE": 0.005984627756576059,
+            "SUSPICIOUS": 0.018266499754977603
+        },
+        "category": "malware"
+    }
+]

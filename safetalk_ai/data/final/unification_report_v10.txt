@@ -1,0 +1,51 @@
+============================================================
+SafeTalk V10 Unified Dataset — Build Report
+Generated: 2026-04-06 07:43:29
+============================================================
+
+═══ 1. SOURCE DATASETS ═══
+  v10_uzb_foundation: 7,623 rows
+  v10_eng_foundation: 6,228 rows
+  v10_rus_foundation: 714 rows
+  v9_semantic_active: 5,087 rows
+  expansion_realistic_v6: 2,000 rows
+  expansion_hard_v8: 139 rows
+  expansion_hardening_v9: 223 rows
+  synthetic_suspicious_v1: 3,330 rows
+  uzbek_expansion_v2: 3,000 rows
+  uzbek_sms_enriched: 222 rows
+  uzbek_telegram_enriched: 195 rows
+  uzbek_translations: 1,177 rows
+  phishing_uz_financial: 300 rows
+  security_alert_uz: 250 rows
+  uzbek_policy_seeds: 5,235 rows
+  TOTAL LOADED: 35,723
+
+═══ 2. FINAL STATISTICS ═══
+  Total rows (after dedup): 17,158
+
+═══ 3. LABEL DISTRIBUTION ═══
+  SAFE        :  8,127 (47.4%)
+  SUSPICIOUS  :  4,709 (27.4%)
+  DANGEROUS   :  4,322 (25.2%)
+
+═══ 4. LANGUAGE DISTRIBUTION ═══
+  uz      :  9,187 (53.5%)
+  en      :  6,935 (40.4%)
+  ru      :  1,036 (6.0%)
+
+═══ 5. WARNINGS ═══
+  ⚠ RU is underrepresented (6.0%). Target ≥15%.
+
+═══ 6. OUTPUT ═══
+  File: D:\SafeTalk\safetalk_ai\data\final\safetalk_unified_v10_ready.csv
+  Schema: text | clean_text | label | language | source
+
+═══ 7. NEXT STEPS ═══
+  1. Review class balance — consider oversampling DANGEROUS
+  2. Run train_model_v10.py on this dataset
+  3. Export to ONNX and update Android assets
+
+============================================================
+END OF REPORT
+============================================================

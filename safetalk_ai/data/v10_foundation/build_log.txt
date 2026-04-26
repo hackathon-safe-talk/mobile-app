@@ -1,0 +1,384 @@
+======================================================================
+SafeTalk V10 Foundation Dataset Builder
+Started: 2026-04-05 03:54:35
+======================================================================
+
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+PHASE 1: Loading ALL datasets
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+
+  [1/44] Loading: sources/sms_spam_collection.txt
+    тЖТ 5572 rows loaded
+
+  [2/44] Loading: sources/spam.csv
+    тЖТ 5572 rows loaded
+
+  [3/44] Loading: sources/sms_uz.csv
+    тЖТ 40 rows loaded
+
+  [4/44] Loading: sources/sms_uz_clean.csv
+    тЖТ 40 rows loaded
+
+  [5/44] Loading: sources/telegram_ham_samples.csv
+    тЖТ 30 rows loaded
+
+  [6/44] Loading: sources/telegram_spam_cleaned.csv
+    тЖТ 199 rows loaded
+
+  [7/44] Loading: processed/messages_cleaned.csv
+    тЖТ 5906 rows loaded
+
+  [8/44] Loading: processed/messages_cleaned_v2.csv
+    тЖТ 6323 rows loaded
+
+  [9/44] Loading: processed/messages_cleaned_v3.csv
+    тЖТ 6623 rows loaded
+
+  [10/44] Loading: processed/messages_cleaned_v4.csv
+    тЖТ 6873 rows loaded
+
+  [11/44] Loading: processed/messages_cleaned_v5.csv
+    тЖТ 9872 rows loaded
+
+  [12/44] Loading: processed/messages_cleaned_v6.csv
+    тЖТ 11855 rows loaded
+
+  [13/44] Loading: processed/master_semantic_dataset_v7.csv
+    тЖТ 12862 rows loaded
+
+  [14/44] Loading: processed/master_semantic_dataset_v7_cleaned.csv
+    тЖТ 12862 rows loaded
+
+  [15/44] Loading: processed/master_semantic_dataset_v8.csv
+    тЖТ 9628 rows loaded
+
+  [16/44] Loading: processed/master_semantic_dataset_v8_cleaned.csv
+    тЖТ 9628 rows loaded
+
+  [17/44] Loading: processed/master_semantic_dataset_v9_cleaned.csv
+    тЖТ 5087 rows loaded
+
+  [18/44] Loading: processed/unified_messages_raw.csv
+    тЖТ 5909 rows loaded
+
+  [19/44] Loading: final/safetalk_unified_dataset.csv
+    тЖТ 5909 rows loaded
+
+  [20/44] Loading: final/safetalk_unified_dataset_v2.csv
+    тЖТ 6326 rows loaded
+
+  [21/44] Loading: final/safetalk_unified_dataset_v3.csv
+    тЖТ 6626 rows loaded
+
+  [22/44] Loading: final/safetalk_unified_dataset_v4.csv
+    тЖТ 6876 rows loaded
+
+  [23/44] Loading: final/safetalk_unified_dataset_v5.csv
+    тЖТ 9875 rows loaded
+
+  [24/44] Loading: final/safetalk_unified_dataset_v6.csv
+    тЖТ 11858 rows loaded
+
+  [25/44] Loading: consolidated/en_final_v2.csv
+    тЖТ 12725 rows loaded
+
+  [26/44] Loading: consolidated/eng_final1_dataset.csv
+    тЖТ 9578 rows loaded
+
+  [27/44] Loading: consolidated/ru_final_v2.csv
+    тЖТ 710 rows loaded
+
+  [28/44] Loading: consolidated/rus_final1_dataset.csv
+    тЖТ 716 rows loaded
+
+  [29/44] Loading: consolidated/uz_final_v2.csv
+    тЖТ 692 rows loaded
+
+  [30/44] Loading: consolidated/uzb_final1_dataset.csv
+    тЖТ 6270 rows loaded
+
+  [31/44] Loading: consolidated/language_conflicts_resolved.csv
+    тЖТ 5845 rows loaded
+
+  [32/44] Loading: consolidated/removed_leakage.csv
+    тЖТ 2437 rows loaded
+
+  [33/44] Loading: expansions/hard_cases_v8.csv
+    тЖТ 139 rows loaded
+
+  [34/44] Loading: expansions/hardening_data_v9.csv
+    тЖТ 223 rows loaded
+
+  [35/44] Loading: expansions/realistic_v6_messages.csv
+    тЖТ 2000 rows loaded
+
+  [36/44] Loading: phishing_expansion/uz_financial_scams.csv
+    тЖТ 300 rows loaded
+
+  [37/44] Loading: security_alert_expansion/uz_security_alert_scams.csv
+    тЖТ 250 rows loaded
+
+  [38/44] Loading: uzbek_expansion/sms_uz_enriched.csv
+    тЖТ 222 rows loaded
+
+  [39/44] Loading: uzbek_expansion/telegram_uz_enriched.csv
+    тЖТ 195 rows loaded
+
+  [40/44] Loading: uzbek_expansion/translation_candidates.csv
+    тЖТ 1177 rows loaded
+
+  [41/44] Loading: uzbek_expansion/uz_dataset_v2.csv
+    тЖТ 3000 rows loaded
+
+  [42/44] Loading: uzbek_policy_seeds.csv
+    тЖТ 5235 rows loaded
+
+  [43/44] Loading: sms_messages_raw.csv
+  [INFO] Empty file: sms_messages_raw.csv
+    тЖТ 0 rows (empty or error)
+
+  [44/44] Loading: telegram_messages_raw.csv
+  [INFO] Empty file: telegram_messages_raw.csv
+    тЖТ 0 rows (empty or error)
+
+======================================================================
+TOTAL ROWS LOADED (before any processing): 214,065
+======================================================================
+
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+PHASE 2: Normalizing text for deduplication
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+  Removed 0 rows with empty normalized text
+  Remaining: 214,065 rows
+
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+PHASE 3: Detecting languages
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+  Processing row 0/214,065...
+  Processing row 10,000/214,065...
+  Processing row 20,000/214,065...
+  Processing row 30,000/214,065...
+  Processing row 40,000/214,065...
+  Processing row 50,000/214,065...
+  Processing row 60,000/214,065...
+  Processing row 70,000/214,065...
+  Processing row 80,000/214,065...
+  Processing row 90,000/214,065...
+  Processing row 100,000/214,065...
+  Processing row 110,000/214,065...
+  Processing row 120,000/214,065...
+  Processing row 130,000/214,065...
+  Processing row 140,000/214,065...
+  Processing row 150,000/214,065...
+  Processing row 160,000/214,065...
+  Processing row 170,000/214,065...
+  Processing row 180,000/214,065...
+  Processing row 190,000/214,065...
+  Processing row 200,000/214,065...
+  Processing row 210,000/214,065...
+
+  Language distribution (before dedup):
+    uz: 103,289
+    en: 103,117
+    ru: 7,659
+
+  Uncertain cases: 39,184
+  Saved uncertain cases to: D:\SafeTalk\safetalk_ai\data\v10_foundation\uncertain_language_log.csv
+
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+PHASE 4: Deduplicating by exact normalized_text match
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+
+  Unique normalized texts: 14,565
+  Texts appearing more than once: 14,167
+
+  Top 10 most duplicated texts:
+    1. [746x] "sizning hisobingiz xavf ostida! kodni yuboring."
+    2. [669x] "to'lovni tasdiqlash uchun cvv kodni ayting."
+    3. [642x] "karta raqami va cvv kodini ayting, tizimni tekshiramiz"
+    4. [608x] "kodni hoziroq yozib yuboring, pul o'tkazish kerak"
+    5. [605x] "tasdiqlash kodini menga yuboring, aks holda bloklanadi"
+    6. [300x] "xavfsizlik yuzasidan kodni maxfiy tuting. bank xodimlariga ham bermang."
+    7. [276x] "sovrin yutdingiz! http://lucky-draw.net orqali profilingizni tasdiqlang"
+    8. [252x] "diqqat! kodni faqat bank ilovasiga kiriting. uni begonalarga ishonib topshirmang..."
+    9. [252x] "yangi aksiya! 1 000 000 so'm yutib oling: http://lucky-draw.net"
+    10. [243x] "yangi aksiya! 1 000 000 so'm yutib oling: http://bonusuz.click"
+
+  Before dedup: 214,065
+  After dedup:  14,565
+  Duplicates removed: 199,500
+
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+PHASE 5: Splitting by language and saving
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+  uzb_base_dataset_v1.csv: 7,623 rows тЖТ D:\SafeTalk\safetalk_ai\data\v10_foundation\uzb_base_dataset_v1.csv
+  rus_base_dataset_v1.csv: 714 rows тЖТ D:\SafeTalk\safetalk_ai\data\v10_foundation\rus_base_dataset_v1.csv
+  eng_base_dataset_v1.csv: 6,228 rows тЖТ D:\SafeTalk\safetalk_ai\data\v10_foundation\eng_base_dataset_v1.csv
+
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+PHASE 6: Generating report
+тФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФАтФА
+======================================================================
+SafeTalk V10 Foundation Dataset тАФ Build Report
+Generated: 2026-04-05 03:54:46
+======================================================================
+
+тХРтХРтХР 1. OVERALL STATISTICS тХРтХРтХР
+  Total datasets loaded:           44
+  Total samples BEFORE dedup:      214,065
+  Removed (empty text):            0
+  After normalization:             214,065
+  Total samples AFTER dedup:       14,565
+  Exact duplicates removed:        199,500
+  Dedup ratio:                     93.2%
+
+тХРтХРтХР 2. FINAL DATASET SIZES тХРтХРтХР
+  uzb_base_dataset_v1.csv: 7,623 rows
+  rus_base_dataset_v1.csv: 714 rows
+  eng_base_dataset_v1.csv: 6,228 rows
+  TOTAL: 14,565 rows
+
+тХРтХРтХР 3. SOURCE CONTRIBUTION тХРтХРтХР
+  master_semantic_dataset_v7.csv: 12,862 rows
+  master_semantic_dataset_v7_cleaned.csv: 12,862 rows
+  en_final_v2.csv: 12,725 rows
+  safetalk_unified_dataset_v6.csv: 11,858 rows
+  messages_cleaned_v6.csv: 11,855 rows
+  safetalk_unified_dataset_v5.csv: 9,875 rows
+  messages_cleaned_v5.csv: 9,872 rows
+  master_semantic_dataset_v8.csv: 9,628 rows
+  master_semantic_dataset_v8_cleaned.csv: 9,628 rows
+  eng_final1_dataset.csv: 9,578 rows
+  safetalk_unified_dataset_v4.csv: 6,876 rows
+  messages_cleaned_v4.csv: 6,873 rows
+  safetalk_unified_dataset_v3.csv: 6,626 rows
+  messages_cleaned_v3.csv: 6,623 rows
+  safetalk_unified_dataset_v2.csv: 6,326 rows
+  messages_cleaned_v2.csv: 6,323 rows
+  uzb_final1_dataset.csv: 6,270 rows
+  unified_messages_raw.csv: 5,909 rows
+  safetalk_unified_dataset.csv: 5,909 rows
+  messages_cleaned.csv: 5,906 rows
+  language_conflicts_resolved.csv: 5,845 rows
+  sms_spam_collection.txt: 5,572 rows
+  spam.csv: 5,572 rows
+  uzbek_policy_seeds.csv: 5,235 rows
+  master_semantic_dataset_v9_cleaned.csv: 5,087 rows
+  uz_dataset_v2.csv: 3,000 rows
+  removed_leakage.csv: 2,437 rows
+  realistic_v6_messages.csv: 2,000 rows
+  translation_candidates.csv: 1,177 rows
+  rus_final1_dataset.csv: 716 rows
+  ru_final_v2.csv: 710 rows
+  uz_final_v2.csv: 692 rows
+  uz_financial_scams.csv: 300 rows
+  uz_security_alert_scams.csv: 250 rows
+  hardening_data_v9.csv: 223 rows
+  sms_uz_enriched.csv: 222 rows
+  telegram_spam_cleaned.csv: 199 rows
+  telegram_uz_enriched.csv: 195 rows
+  hard_cases_v8.csv: 139 rows
+  sms_uz.csv: 40 rows
+  sms_uz_clean.csv: 40 rows
+  telegram_ham_samples.csv: 30 rows
+
+тХРтХРтХР 4. PER-SOURCE UNIQUE CONTRIBUTION (after dedup) тХРтХРтХР
+  sms_spam_collection.txt: 5,157 unique rows in final
+  messages_cleaned_v5.csv: 2,999 unique rows in final
+  messages_cleaned_v6.csv: 1,972 unique rows in final
+  master_semantic_dataset_v7.csv: 1,866 unique rows in final
+  spam.csv: 553 unique rows in final
+  messages_cleaned.csv: 438 unique rows in final
+  messages_cleaned_v2.csv: 417 unique rows in final
+  messages_cleaned_v3.csv: 300 unique rows in final
+  messages_cleaned_v4.csv: 250 unique rows in final
+  master_semantic_dataset_v8.csv: 139 unique rows in final
+  master_semantic_dataset_v9_cleaned.csv: 132 unique rows in final
+  telegram_spam_cleaned.csv: 127 unique rows in final
+  en_final_v2.csv: 97 unique rows in final
+  ru_final_v2.csv: 42 unique rows in final
+  sms_uz.csv: 40 unique rows in final
+  telegram_ham_samples.csv: 30 unique rows in final
+  uz_final_v2.csv: 6 unique rows in final
+
+тХРтХРтХР 5. LANGUAGE DISTRIBUTION (after dedup) тХРтХРтХР
+  uz: 7,623 (52.3%)
+  en: 6,228 (42.8%)
+  ru: 714 (4.9%)
+
+тХРтХРтХР 6. LANGUAGE CONFIDENCE DISTRIBUTION тХРтХРтХР
+  high: 10,070
+  medium: 3,004
+  low: 1,491
+
+тХРтХРтХР 7. LANGUAGE DETECTION ISSUES тХРтХРтХР
+  Total uncertain/mixed cases: 39,184
+    detected_overrides_hint_en: 17,257
+    detected_vs_hint_en: 12,126
+    detected_only: 8,035
+    hint_used_low_detection: 1,415
+    detected_overrides_hint_uz: 162
+    detected_vs_hint_uz: 136
+    hint_unknown_using_detected: 53
+
+  Mislabeled texts (detection overrode hint): 17,419
+    [enтЖТuz] "Menga 1650,000 so'm tashlab tura olasanmi?......"
+    [enтЖТuz] "Bugun 15:30 da ko'rishamiz....."
+    [enтЖТuz] "Dam olish kuningiz maroqli o'tsin..."
+    [enтЖТuz] "Bugun 20:00 da ko'rishamiz.?..."
+    [enтЖТuz] "Bugun 14:00 da ko'rishamiz. tezroq..."
+    [enтЖТuz] "Bugun 19:30 da ko'rishamiz.?..."
+    [enтЖТuz] "go'sht narxi qancha ekan hozir?...."
+    [enтЖТuz] "Bugun 8:45 da ko'rishamiz.!..."
+    [enтЖТuz] "Bugun 10:00 da ko'rishamiz. tezroq..."
+    [enтЖТuz] "Guruhga yangi a'zolarni qo'shmanglar iltimos..."
+
+тХРтХРтХР 8. TOP 10 MOST DUPLICATED TEXTS тХРтХРтХР
+  1. [746x] "sizning hisobingiz xavf ostida! kodni yuboring."
+  2. [669x] "to'lovni tasdiqlash uchun cvv kodni ayting."
+  3. [642x] "karta raqami va cvv kodini ayting, tizimni tekshiramiz"
+  4. [608x] "kodni hoziroq yozib yuboring, pul o'tkazish kerak"
+  5. [605x] "tasdiqlash kodini menga yuboring, aks holda bloklanadi"
+  6. [300x] "xavfsizlik yuzasidan kodni maxfiy tuting. bank xodimlariga ham bermang."
+  7. [276x] "sovrin yutdingiz! http://lucky-draw.net orqali profilingizni tasdiqlang"
+  8. [252x] "diqqat! kodni faqat bank ilovasiga kiriting. uni begonalarga ishonib topshirmang."
+  9. [252x] "yangi aksiya! 1 000 000 so'm yutib oling: http://lucky-draw.net"
+  10. [243x] "yangi aksiya! 1 000 000 so'm yutib oling: http://bonusuz.click"
+
+тХРтХРтХР 9. LABEL DISTRIBUTION (per language, after dedup) тХРтХРтХР
+
+  --- UZ ---
+    scam: 2,975
+    ham: 2,358
+    SAFE: 1,477
+    SUSPICIOUS: 381
+    DANGEROUS: 249
+    spam: 183
+
+  --- RU ---
+    scam: 500
+    spam: 117
+    DANGEROUS: 50
+    SAFE: 34
+    SUSPICIOUS: 13
+
+  --- EN ---
+    ham: 4,927
+    spam: 694
+    scam: 529
+    SAFE: 40
+    DANGEROUS: 31
+    SUSPICIOUS: 7
+
+тХРтХРтХР 10. VERIFICATION CHECKSUMS тХРтХРтХР
+  uzb_base_dataset_v1.csv: 7,623 rows, 7,623 unique тАФ NO DUPLICATES тЬУ
+  rus_base_dataset_v1.csv: 714 rows, 714 unique тАФ NO DUPLICATES тЬУ
+  eng_base_dataset_v1.csv: 6,228 rows, 6,228 unique тАФ NO DUPLICATES тЬУ
+
+======================================================================
+END OF REPORT
+======================================================================
+
+
+Pipeline completed in 11.2 seconds
+Output directory: D:\SafeTalk\safetalk_ai\data\v10_foundation

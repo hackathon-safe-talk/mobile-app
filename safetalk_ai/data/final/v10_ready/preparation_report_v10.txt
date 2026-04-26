@@ -1,0 +1,40 @@
+SafeTalk V10 Hardened Split Report
+Generated: 2026-04-06 07:54:36
+Input: D:\SafeTalk\safetalk_ai\data\final\safetalk_unified_v10_ready.csv
+
+═══ PIPELINE STATS ═══
+  Synthetic Data Detected: 3,330 rows
+  URLs Detected: 4,301 rows
+  Edge Cases Extracted: 1,715 rows
+  Edge Cases Reintroduced to Train: 343 rows (20.0%)
+
+═══ TRAIN DATASET (12,628) ═══
+  SAFE        : 6,494 ( 51.4%)
+  DANGEROUS   : 3,457 ( 27.4%)
+  SUSPICIOUS  : 2,677 ( 21.2%)
+  Languages:
+    UZ: 6712 (53.2%) | EN: 5211 (41.3%) | RU: 705 (5.6%)
+  Synthetic : 12.8%
+
+═══ VALIDATION DATASET (1,579) ═══
+  SAFE        :   811 ( 51.4%)
+  DANGEROUS   :   432 ( 27.4%)
+  SUSPICIOUS  :   336 ( 21.3%)
+  Languages:
+    UZ: 840 (53.2%) | EN: 651 (41.2%) | RU: 88 (5.6%)
+  Synthetic : 12.5%
+
+═══ TEST DATASET (1,579) ═══
+  SAFE        :   812 ( 51.4%)
+  DANGEROUS   :   433 ( 27.4%)
+  SUSPICIOUS  :   334 ( 21.2%)
+  Languages:
+    UZ: 839 (53.1%) | EN: 652 (41.3%) | RU: 88 (5.6%)
+  Synthetic : 12.7%
+
+═══ EDGE CASES DATASET (1,372) ═══
+  SUSPICIOUS  : 1,362 ( 99.3%)
+  SAFE        :    10 (  0.7%)
+  Languages:
+    UZ: 796 (58.0%) | EN: 421 (30.7%) | RU: 155 (11.3%)
+  Synthetic : 95.5%

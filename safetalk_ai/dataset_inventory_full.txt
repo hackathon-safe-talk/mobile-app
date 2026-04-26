@@ -1,0 +1,409 @@
+Total data files found: 49
+
+=== data\consolidated\consolidation_report.txt ===
+  Rows: 200
+  Columns: ['======================================================================']
+    ======================================================================: SafeTalk Dataset Consolidation Report
+
+=== data\consolidated\en_final_v2.csv ===
+  Rows: 12725
+  Columns: ['text', 'normalized_text', 'label_unified', 'language_fixed', 'language_confidence', 'source_dataset']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    normalized_text: go until jurong point, crazy.. available only in bugis n great world la e buffet
+    label_unified: SAFE
+    language_fixed: en
+    language_confidence: high
+    source_dataset: messages_cleaned.csv
+
+=== data\consolidated\eng_final1_dataset.csv ===
+  Rows: 9578
+  Columns: ['text', 'language', 'source_dataset', 'original_label', 'normalized_text']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    language: en
+    source_dataset: messages_cleaned.csv
+    original_label: ham
+    normalized_text: go until jurong point, crazy.. available only in bugis n great world la e buffet
+
+=== data\consolidated\full_audit_report.txt ===
+  Rows: 406
+  Columns: ['SafeTalk Consolidated Dataset Ч Full Audit Report']
+    SafeTalk Consolidated Dataset Ч Full Audit Report: ================================================================================
+
+=== data\consolidated\language_conflicts_log.csv ===
+  Rows: 12571
+  Columns: ['idx', 'text_preview', 'existing_lang', 'detected_lang', 'method', 'source']
+    idx: 53385
+    text_preview: Menga 1650,000 so'm tashlab tura olasanmi?...
+    existing_lang: en
+    detected_lang: uz
+    method: latin_uz_markers
+    source: master_semantic_dataset_v7.csv
+
+=== data\consolidated\language_conflicts_resolved.csv ===
+  Rows: 5845
+  Columns: ['text', 'language_orig', 'source_dataset', 'original_label', 'normalized_text', 'source_lang_dataset', 'label_unified', 'language_detected', 'language_fixed', 'language_confidence']
+    text: Sir, I need AXIS BANK account no and bank address.
+    language_orig: uz
+    source_dataset: messages_cleaned.csv
+    original_label: ham
+    normalized_text: sir, i need axis bank account no and bank address.
+    source_lang_dataset: uz
+    label_unified: SAFE
+    language_detected: en
+    language_fixed: en
+    language_confidence: low
+
+=== data\consolidated\mixed_language_log.csv ===
+  Rows: 3434
+  Columns: ['idx', 'text_preview', 'assigned_lang', 'source']
+    idx: 5719
+=== data\consolidated\mixed_language_log.csv === ERROR: 'charmap' codec can't encode characters in position 18-27: character maps to <undefined>
+
+=== data\consolidated\removed_leakage.csv ===
+  Rows: 2437
+  Columns: ['text', 'language_orig', 'source_dataset', 'original_label', 'normalized_text', 'source_lang_dataset', 'label_unified', 'language_detected', 'language_fixed', 'language_confidence', 'is_maj', 'lp', 'cp']
+    text: Pul o'tkazib yubordim
+    language_orig: en
+    source_dataset: master_semantic_dataset_v7.csv
+    original_label: SAFE|UNKNOWN
+    normalized_text: pul o'tkazib yubordim
+    source_lang_dataset: en
+    label_unified: SAFE
+    language_detected: uz
+    language_fixed: uz
+    language_confidence: low
+    is_maj: True
+    lp: 1
+    cp: 3
+
+=== data\consolidated\ru_final_v2.csv ===
+  Rows: 710
+  Columns: ['text', 'normalized_text', 'label_unified', 'language_fixed', 'language_confidence', 'source_dataset']
+    text: ╤Ёюўэю ЄЁхсє■Єё  2 ўхыютхър. ╧Ёшс√ы№эюёЄ№ юЄ 16 Є√ё.Ёєсыхщ т фхэ№.╙фрыхэър.╟р яю
+    normalized_text: ёЁюўэю ЄЁхсє■Єё  2 ўхыютхър. яЁшс√ы№эюёЄ№ юЄ 16 Є√ё.Ёєсыхщ т фхэ№.єфрыхэър.чр яю
+    label_unified: DANGEROUS
+    language_fixed: ru
+    language_confidence: high
+    source_dataset: messages_cleaned.csv
+
+=== data\consolidated\rus_final1_dataset.csv ===
+  Rows: 716
+  Columns: ['text', 'language', 'source_dataset', 'original_label', 'normalized_text']
+    text: ╤Ёюўэю ЄЁхсє■Єё  2 ўхыютхър. ╧Ёшс√ы№эюёЄ№ юЄ 16 Є√ё.Ёєсыхщ т фхэ№.╙фрыхэър.╟р яю
+    language: ru
+    source_dataset: messages_cleaned.csv
+    original_label: scam
+    normalized_text: ёЁюўэю ЄЁхсє■Єё  2 ўхыютхър. яЁшс√ы№эюёЄ№ юЄ 16 Є√ё.Ёєсыхщ т фхэ№.єфрыхэър.чр яю
+
+=== data\consolidated\uz_final_v2.csv ===
+  Rows: 692
+  Columns: ['text', 'normalized_text', 'label_unified', 'language_fixed', 'language_confidence', 'source_dataset']
+    text: Iltimos yordam yuboring
+    normalized_text: iltimos yordam yuboring
+    label_unified: SAFE
+    language_fixed: uz
+    language_confidence: high
+    source_dataset: messages_cleaned.csv
+
+=== data\consolidated\uzb_final1_dataset.csv ===
+  Rows: 6270
+  Columns: ['text', 'language', 'source_dataset', 'original_label', 'normalized_text']
+    text: Sir, I need AXIS BANK account no and bank address.
+    language: uz
+    source_dataset: messages_cleaned.csv
+    original_label: ham
+    normalized_text: sir, i need axis bank account no and bank address.
+
+=== data\expansions\hard_cases_v8.csv ===
+  Rows: 139
+  Columns: ['text', 'risk_label', 'intent_label', 'language', 'tags']
+    text: Hurmatli mijoz, ClickEvolution ilovasiga xush kelibsiz! Parolingizni hech kimga 
+    risk_label: SAFE
+    intent_label: INFO
+    language: uz
+    tags: security_info
+
+=== data\expansions\hardening_data_v9.csv ===
+  Rows: 223
+  Columns: ['text', 'risk_label', 'intent_label', 'language', 'tags']
+    text: Ipak Yo'li bank: Shaxsingizni tasdiqlamasangiz kartangiz o'chiriladi. Kirish: ht
+    risk_label: DANGEROUS
+    intent_label: REQUEST
+    language: mixed
+    tags: phishing_login
+
+=== data\expansions\realistic_v6_messages.csv ===
+  Rows: 2000
+  Columns: ['text', 'source', 'label']
+    text: Sizga yangi transfer keldi 54 000. Qabul qiling http://click-safety.uz/927633 -
+    source: sms
+    label: scam
+
+=== data\final\safetalk_unified_dataset.csv ===
+  Rows: 5909
+  Columns: ['text', 'source', 'label']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+
+=== data\final\safetalk_unified_dataset_v2.csv ===
+  Rows: 6326
+  Columns: ['text', 'source', 'label']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+
+=== data\final\safetalk_unified_dataset_v3.csv ===
+  Rows: 6626
+  Columns: ['text', 'source', 'label']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+
+=== data\final\safetalk_unified_dataset_v4.csv ===
+  Rows: 6876
+  Columns: ['text', 'source', 'label']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+
+=== data\final\safetalk_unified_dataset_v5.csv ===
+  Rows: 9875
+  Columns: ['text', 'source', 'label']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+
+=== data\final\safetalk_unified_dataset_v6.csv ===
+  Rows: 11858
+  Columns: ['text', 'source', 'label']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+
+=== data\phishing_expansion\uz_financial_scams.csv ===
+  Rows: 300
+  Columns: ['text', 'label', 'category', 'notes']
+    text: Hurmatli mijoz, HUMO kartangizda shubhali tranzaksiya aniqlangan. Parolni yangil
+    label: scam
+    category: bank_phishing
+    notes: generated financial phishing
+
+=== data\processed\master_semantic_dataset_v7.csv ===
+  Rows: 12862
+  Columns: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+    text: Abituriyentlar diqqatiga: qabul boshlandi
+    risk_label: SAFE
+    intent_label: UNKNOWN
+    tags: nan
+    language: en
+    source: telegram
+    clean_text: abituriyentlar diqqatiga qabul boshlandi
+
+=== data\processed\master_semantic_dataset_v7_cleaned.csv ===
+  Rows: 12862
+  Columns: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+    text: Abituriyentlar diqqatiga: qabul boshlandi
+    risk_label: SAFE
+    intent_label: UNKNOWN
+    tags: nan
+    language: en
+    source: telegram
+    clean_text: abituriyentlar diqqatiga: qabul boshlandi
+
+=== data\processed\master_semantic_dataset_v8.csv ===
+  Rows: 9628
+  Columns: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+    text: Abituriyentlar diqqatiga: qabul boshlandi
+    risk_label: SAFE
+    intent_label: UNKNOWN
+    tags: nan
+    language: en
+    source: telegram
+    clean_text: abituriyentlar diqqatiga qabul boshlandi
+
+=== data\processed\master_semantic_dataset_v8_cleaned.csv ===
+  Rows: 9628
+  Columns: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+    text: Abituriyentlar diqqatiga: qabul boshlandi
+    risk_label: SAFE
+    intent_label: UNKNOWN
+    tags: nan
+    language: en
+    source: telegram
+    clean_text: abituriyentlar diqqatiga: qabul boshlandi
+
+=== data\processed\master_semantic_dataset_v9_cleaned.csv ===
+  Rows: 5087
+  Columns: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source', 'clean_text']
+    text: Your free ringtone is waiting to be collected. Simply text the password "MIX" to
+    risk_label: DANGEROUS
+    intent_label: REQUEST
+    tags: nan
+    language: en
+    source: sms
+    clean_text: your free ringtone is waiting to be collected. simply text the password mix to 8
+
+=== data\processed\messages_cleaned.csv ===
+  Rows: 5906
+  Columns: ['text', 'source', 'label', 'clean_text']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+    clean_text: go until jurong point crazy available only in bugis n great world la e buffet ci
+
+=== data\processed\messages_cleaned_v2.csv ===
+  Rows: 6323
+  Columns: ['text', 'source', 'label', 'clean_text']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+    clean_text: go until jurong point crazy available only in bugis n great world la e buffet ci
+
+=== data\processed\messages_cleaned_v3.csv ===
+  Rows: 6623
+  Columns: ['text', 'source', 'label', 'clean_text']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+    clean_text: go until jurong point crazy available only in bugis n great world la e buffet ci
+
+=== data\processed\messages_cleaned_v4.csv ===
+  Rows: 6873
+  Columns: ['text', 'source', 'label', 'clean_text']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+    clean_text: go until jurong point crazy available only in bugis n great world la e buffet ci
+
+=== data\processed\messages_cleaned_v5.csv ===
+  Rows: 9872
+  Columns: ['text', 'source', 'label', 'clean_text']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+    clean_text: go until jurong point crazy available only in bugis n great world la e buffet ci
+
+=== data\processed\messages_cleaned_v6.csv ===
+  Rows: 11855
+  Columns: ['text', 'source', 'label', 'clean_text']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+    clean_text: go until jurong point crazy available only in bugis n great world la e buffet ci
+
+=== data\processed\unified_messages_raw.csv ===
+  Rows: 5909
+  Columns: ['text', 'source', 'label']
+    text: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+    source: sms
+    label: ham
+
+=== data\security_alert_expansion\uz_security_alert_scams.csv ===
+  Rows: 250
+  Columns: ['text', 'label', 'category']
+    text: Sizning Kapitalbank kartangiz orqali shubhali tranzaksiya amalga oshirildi. Beko
+    label: scam
+    category: suspicious_transaction
+
+=== data\sms_messages_raw.csv ===
+  Rows: 0
+  Columns: ['text', 'label']
+
+=== data\sources\sms_spam_collection.txt ===
+  Rows: 5571
+  Columns: ['ham', 'Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...']
+    ham: ham
+    Go until jurong point, crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...: Ok lar... Joking wif u oni...
+
+=== data\sources\sms_uz.csv ===
+  Rows: 40
+  Columns: ['text', 'label']
+    text: Hisobingiz vaqtincha bloklandi. Tiklash uchun havolani bosing
+    label: scam
+
+=== data\sources\sms_uz_clean.csv ===
+  Rows: 40
+  Columns: ['text', 'label', 'clean_text']
+    text: Hisobingiz vaqtincha bloklandi. Tiklash uchun havolani bosing
+    label: scam
+    clean_text: hisobingiz vaqtincha bloklandi tiklash uchun havolani bosing
+
+=== data\sources\spam.csv ===
+  Rows: 5572
+  Columns: ['Unnamed: 0', 'spamORham', 'Message']
+    Unnamed: 0: 0
+    spamORham: ham
+    Message: Go until jurong point, crazy.. Available only in bugis n great world la e buffet
+
+=== data\sources\telegram_ham_samples.csv ===
+  Rows: 30
+  Columns: ['text', 'label']
+    text: Salom qalaysan
+    label: ham
+
+=== data\sources\telegram_spam_cleaned.csv ===
+  Rows: 199
+  Columns: ['id', 'date', 'text', 'label', 'has_media', 'forwarded_from']
+    id: 2
+    date: 2025-04-04T15:01:47
+    text: ╤Ёюўэю ЄЁхсє■Єё  2 ўхыютхър. ╧Ёшс√ы№эюёЄ№ юЄ 16 Є√ё.Ёєсыхщ т фхэ№.╙фрыхэър.╟р яю
+    label: spam
+    has_media: 0
+    forwarded_from: 0
+
+=== data\telegram_messages_raw.csv ===
+  Rows: 0
+  Columns: ['text', 'label']
+
+=== data\uzbek_expansion\expansion_report.txt ===
+  Rows: 30
+  Columns: ['=== Uzbek Expansion Report ===']
+    === Uzbek Expansion Report ===: Initial SMS Size: 80
+
+=== data\uzbek_expansion\sms_uz_enriched.csv ===
+  Rows: 222
+  Columns: ['text', 'label', 'origin', 'notes']
+    text: Aka qayerdasiz?
+    label: ham
+    origin: adapted
+    notes: daily chat
+
+=== data\uzbek_expansion\telegram_uz_enriched.csv ===
+  Rows: 195
+  Columns: ['text', 'label', 'origin', 'notes']
+    text: Juma ayyomi muborak qadrdonlarim!
+    label: ham
+    origin: adapted
+    notes: telegram group / work / general
+
+=== data\uzbek_expansion\translation_candidates.csv ===
+  Rows: 1177
+  Columns: ['text', 'source', 'label', 'language_hint', 'priority', 'reason']
+    text: Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. Text FA to 8
+    source: sms
+    label: scam
+    language_hint: en
+    priority: high
+    reason: strong prize scam pattern
+
+=== data\uzbek_expansion\uz_dataset_v2.csv ===
+  Rows: 3000
+  Columns: ['text', 'source', 'label']
+    text: Kechikaman biroz 15:45 da boraman..
+    source: telegram
+    label: ham
+
+=== data\uzbek_policy_seeds.csv ===
+  Rows: 5235
+  Columns: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source']
+    text: Tasdiqlash kodi: 482901
+    risk_label: SAFE
+    intent_label: INFO
+    tags: otp
+    language: uz
+    source: manual
+
+
+============================================================
+GRAND TOTAL rows across all files: 230705

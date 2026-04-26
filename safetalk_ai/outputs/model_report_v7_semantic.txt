@@ -1,0 +1,31 @@
+=== SafeTalk Semantic Model Evaluation Summary V7 ===
+Timestamp: 2026-03-16 15:10:26
+
+Dataset: master_semantic_dataset_v7_cleaned.csv
+Total rows used: 12862
+Classes: SAFE, SUSPICIOUS, DANGEROUS
+
+=== Metrics ===
+Accuracy: 0.9841
+
+Confusion Matrix (Labels: SAFE, SUSPICIOUS, DANGEROUS):
+[[ 892    4    1]
+ [  32 1215    1]
+ [   2    1  425]]
+
+Level-wise breakdown:
+              precision    recall  f1-score   support
+
+   DANGEROUS       1.00      0.99      0.99       428
+        SAFE       0.96      0.99      0.98       897
+  SUSPICIOUS       1.00      0.97      0.98      1248
+
+    accuracy                           0.98      2573
+   macro avg       0.98      0.99      0.99      2573
+weighted avg       0.98      0.98      0.98      2573
+
+
+Uzbek Priority Check:
+The dataset includes focused seeds for Uzbek OTP, warnings, and solicitation scams.
+
+Next steps: ONNX conversion for Android runtime integration.

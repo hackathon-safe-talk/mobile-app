@@ -1,0 +1,32 @@
+=== SafeTalk Semantic Model Evaluation Summary V8 ===
+Timestamp: 2026-03-17 23:16:41
+
+Dataset: master_semantic_dataset_v8_cleaned.csv
+Total rows used: 9628
+Classes: SAFE, SUSPICIOUS, DANGEROUS
+
+=== Metrics ===
+Accuracy: 0.9870
+
+Confusion Matrix (Labels: SAFE, SUSPICIOUS, DANGEROUS):
+[[ 835    7    6]
+ [  10 1003    1]
+ [   0    1   63]]
+
+Level-wise breakdown:
+              precision    recall  f1-score   support
+
+   DANGEROUS       0.90      0.98      0.94        64
+        SAFE       0.99      0.98      0.99       848
+  SUSPICIOUS       0.99      0.99      0.99      1014
+
+    accuracy                           0.99      1926
+   macro avg       0.96      0.99      0.97      1926
+weighted avg       0.99      0.99      0.99      1926
+
+
+V8 Improvements:
+- Added 33 hard cases (Legitimate bank SMS, mixed-intent scams).
+- Improved preprocessing (Uzbek abbreviations, technical token protection).
+- TF-IDF ngram_range increased to (1, 3).
+- Logistic Regression tuned with C=10.0 and class_weight='balanced'.

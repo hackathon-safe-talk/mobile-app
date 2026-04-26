@@ -1,0 +1,160 @@
+======================================================================
+SafeTalk V10 Foundation Dataset — Build Report
+Generated: 2026-04-05 03:54:46
+======================================================================
+
+═══ 1. OVERALL STATISTICS ═══
+  Total datasets loaded:           44
+  Total samples BEFORE dedup:      214,065
+  Removed (empty text):            0
+  After normalization:             214,065
+  Total samples AFTER dedup:       14,565
+  Exact duplicates removed:        199,500
+  Dedup ratio:                     93.2%
+
+═══ 2. FINAL DATASET SIZES ═══
+  uzb_base_dataset_v1.csv: 7,623 rows
+  rus_base_dataset_v1.csv: 714 rows
+  eng_base_dataset_v1.csv: 6,228 rows
+  TOTAL: 14,565 rows
+
+═══ 3. SOURCE CONTRIBUTION ═══
+  master_semantic_dataset_v7.csv: 12,862 rows
+  master_semantic_dataset_v7_cleaned.csv: 12,862 rows
+  en_final_v2.csv: 12,725 rows
+  safetalk_unified_dataset_v6.csv: 11,858 rows
+  messages_cleaned_v6.csv: 11,855 rows
+  safetalk_unified_dataset_v5.csv: 9,875 rows
+  messages_cleaned_v5.csv: 9,872 rows
+  master_semantic_dataset_v8.csv: 9,628 rows
+  master_semantic_dataset_v8_cleaned.csv: 9,628 rows
+  eng_final1_dataset.csv: 9,578 rows
+  safetalk_unified_dataset_v4.csv: 6,876 rows
+  messages_cleaned_v4.csv: 6,873 rows
+  safetalk_unified_dataset_v3.csv: 6,626 rows
+  messages_cleaned_v3.csv: 6,623 rows
+  safetalk_unified_dataset_v2.csv: 6,326 rows
+  messages_cleaned_v2.csv: 6,323 rows
+  uzb_final1_dataset.csv: 6,270 rows
+  unified_messages_raw.csv: 5,909 rows
+  safetalk_unified_dataset.csv: 5,909 rows
+  messages_cleaned.csv: 5,906 rows
+  language_conflicts_resolved.csv: 5,845 rows
+  sms_spam_collection.txt: 5,572 rows
+  spam.csv: 5,572 rows
+  uzbek_policy_seeds.csv: 5,235 rows
+  master_semantic_dataset_v9_cleaned.csv: 5,087 rows
+  uz_dataset_v2.csv: 3,000 rows
+  removed_leakage.csv: 2,437 rows
+  realistic_v6_messages.csv: 2,000 rows
+  translation_candidates.csv: 1,177 rows
+  rus_final1_dataset.csv: 716 rows
+  ru_final_v2.csv: 710 rows
+  uz_final_v2.csv: 692 rows
+  uz_financial_scams.csv: 300 rows
+  uz_security_alert_scams.csv: 250 rows
+  hardening_data_v9.csv: 223 rows
+  sms_uz_enriched.csv: 222 rows
+  telegram_spam_cleaned.csv: 199 rows
+  telegram_uz_enriched.csv: 195 rows
+  hard_cases_v8.csv: 139 rows
+  sms_uz.csv: 40 rows
+  sms_uz_clean.csv: 40 rows
+  telegram_ham_samples.csv: 30 rows
+
+═══ 4. PER-SOURCE UNIQUE CONTRIBUTION (after dedup) ═══
+  sms_spam_collection.txt: 5,157 unique rows in final
+  messages_cleaned_v5.csv: 2,999 unique rows in final
+  messages_cleaned_v6.csv: 1,972 unique rows in final
+  master_semantic_dataset_v7.csv: 1,866 unique rows in final
+  spam.csv: 553 unique rows in final
+  messages_cleaned.csv: 438 unique rows in final
+  messages_cleaned_v2.csv: 417 unique rows in final
+  messages_cleaned_v3.csv: 300 unique rows in final
+  messages_cleaned_v4.csv: 250 unique rows in final
+  master_semantic_dataset_v8.csv: 139 unique rows in final
+  master_semantic_dataset_v9_cleaned.csv: 132 unique rows in final
+  telegram_spam_cleaned.csv: 127 unique rows in final
+  en_final_v2.csv: 97 unique rows in final
+  ru_final_v2.csv: 42 unique rows in final
+  sms_uz.csv: 40 unique rows in final
+  telegram_ham_samples.csv: 30 unique rows in final
+  uz_final_v2.csv: 6 unique rows in final
+
+═══ 5. LANGUAGE DISTRIBUTION (after dedup) ═══
+  uz: 7,623 (52.3%)
+  en: 6,228 (42.8%)
+  ru: 714 (4.9%)
+
+═══ 6. LANGUAGE CONFIDENCE DISTRIBUTION ═══
+  high: 10,070
+  medium: 3,004
+  low: 1,491
+
+═══ 7. LANGUAGE DETECTION ISSUES ═══
+  Total uncertain/mixed cases: 39,184
+    detected_overrides_hint_en: 17,257
+    detected_vs_hint_en: 12,126
+    detected_only: 8,035
+    hint_used_low_detection: 1,415
+    detected_overrides_hint_uz: 162
+    detected_vs_hint_uz: 136
+    hint_unknown_using_detected: 53
+
+  Mislabeled texts (detection overrode hint): 17,419
+    [en→uz] "Menga 1650,000 so'm tashlab tura olasanmi?......"
+    [en→uz] "Bugun 15:30 da ko'rishamiz....."
+    [en→uz] "Dam olish kuningiz maroqli o'tsin..."
+    [en→uz] "Bugun 20:00 da ko'rishamiz.?..."
+    [en→uz] "Bugun 14:00 da ko'rishamiz. tezroq..."
+    [en→uz] "Bugun 19:30 da ko'rishamiz.?..."
+    [en→uz] "go'sht narxi qancha ekan hozir?...."
+    [en→uz] "Bugun 8:45 da ko'rishamiz.!..."
+    [en→uz] "Bugun 10:00 da ko'rishamiz. tezroq..."
+    [en→uz] "Guruhga yangi a'zolarni qo'shmanglar iltimos..."
+
+═══ 8. TOP 10 MOST DUPLICATED TEXTS ═══
+  1. [746x] "sizning hisobingiz xavf ostida! kodni yuboring."
+  2. [669x] "to'lovni tasdiqlash uchun cvv kodni ayting."
+  3. [642x] "karta raqami va cvv kodini ayting, tizimni tekshiramiz"
+  4. [608x] "kodni hoziroq yozib yuboring, pul o'tkazish kerak"
+  5. [605x] "tasdiqlash kodini menga yuboring, aks holda bloklanadi"
+  6. [300x] "xavfsizlik yuzasidan kodni maxfiy tuting. bank xodimlariga ham bermang."
+  7. [276x] "sovrin yutdingiz! http://lucky-draw.net orqali profilingizni tasdiqlang"
+  8. [252x] "diqqat! kodni faqat bank ilovasiga kiriting. uni begonalarga ishonib topshirmang."
+  9. [252x] "yangi aksiya! 1 000 000 so'm yutib oling: http://lucky-draw.net"
+  10. [243x] "yangi aksiya! 1 000 000 so'm yutib oling: http://bonusuz.click"
+
+═══ 9. LABEL DISTRIBUTION (per language, after dedup) ═══
+
+  --- UZ ---
+    scam: 2,975
+    ham: 2,358
+    SAFE: 1,477
+    SUSPICIOUS: 381
+    DANGEROUS: 249
+    spam: 183
+
+  --- RU ---
+    scam: 500
+    spam: 117
+    DANGEROUS: 50
+    SAFE: 34
+    SUSPICIOUS: 13
+
+  --- EN ---
+    ham: 4,927
+    spam: 694
+    scam: 529
+    SAFE: 40
+    DANGEROUS: 31
+    SUSPICIOUS: 7
+
+═══ 10. VERIFICATION CHECKSUMS ═══
+  uzb_base_dataset_v1.csv: 7,623 rows, 7,623 unique — NO DUPLICATES ✓
+  rus_base_dataset_v1.csv: 714 rows, 714 unique — NO DUPLICATES ✓
+  eng_base_dataset_v1.csv: 6,228 rows, 6,228 unique — NO DUPLICATES ✓
+
+======================================================================
+END OF REPORT
+======================================================================

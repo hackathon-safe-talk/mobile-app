@@ -1,0 +1,242 @@
+================================================================================
+DATASET: safetalk_unified_dataset
+PATH: data/final/safetalk_unified_dataset.csv
+SIZE: 577171 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 5909
+Label distribution: {'ham': 4894, 'scam': 1015}
+Language distribution: {}
+Source distribution: {'sms': 5751, 'telegram': 158}
+
+================================================================================
+DATASET: safetalk_unified_dataset_v2
+PATH: data/final/safetalk_unified_dataset_v2.csv
+SIZE: 603259 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 6326
+Label distribution: {'ham': 5092, 'scam': 1234}
+Language distribution: {}
+Source distribution: {'sms': 5973, 'telegram': 353}
+
+================================================================================
+DATASET: safetalk_unified_dataset_v3
+PATH: data/final/safetalk_unified_dataset_v3.csv
+SIZE: 642547 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 6626
+Label distribution: {'ham': 5092, 'scam': 1534}
+Language distribution: {}
+Source distribution: {'sms': 6273, 'telegram': 353}
+
+================================================================================
+DATASET: safetalk_unified_dataset_v4
+PATH: data/final/safetalk_unified_dataset_v4.csv
+SIZE: 679019 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 6876
+Label distribution: {'ham': 5092, 'scam': 1784}
+Language distribution: {}
+Source distribution: {'sms': 6523, 'telegram': 353}
+
+================================================================================
+DATASET: safetalk_unified_dataset_v5
+PATH: data/final/safetalk_unified_dataset_v5.csv
+SIZE: 907452 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 9875
+Label distribution: {'ham': 6591, 'scam': 3284}
+Language distribution: {}
+Source distribution: {'sms': 8060, 'telegram': 1815}
+
+================================================================================
+DATASET: safetalk_unified_dataset_v6
+PATH: data/final/safetalk_unified_dataset_v6.csv
+SIZE: 1084291 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 11858
+Label distribution: {'ham': 7074, 'scam': 4784}
+Language distribution: {}
+Source distribution: {'sms': 9022, 'telegram': 2836}
+
+================================================================================
+DATASET: sms_spam_collection
+PATH: data/sources/sms_spam_collection.txt
+SIZE: 477907 bytes
+================================================================================
+Headers: ['ham\tGo until jurong point', ' crazy.. Available only in bugis n great world la e buffet... Cine there got amore wat...']
+Total samples: 5573
+Label distribution: {'': 5573}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: spam
+PATH: data/sources/spam.csv
+SIZE: 511590 bytes
+================================================================================
+Headers: ['', 'spamORham', 'Message']
+Total samples: 5572
+Label distribution: {'': 5572}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: sms_uz
+PATH: data/sources/sms_uz.csv
+SIZE: 1750 bytes
+================================================================================
+Headers: ['text', 'label']
+Total samples: 40
+Label distribution: {'scam': 20, 'ham': 20}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: sms_uz_clean
+PATH: data/sources/sms_uz_clean.csv
+SIZE: 3139 bytes
+================================================================================
+Headers: ['text', 'label', 'clean_text']
+Total samples: 40
+Label distribution: {'scam': 20, 'ham': 20}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: telegram_ham_samples
+PATH: data/sources/telegram_ham_samples.csv
+SIZE: 685 bytes
+================================================================================
+Headers: ['text', 'label']
+Total samples: 30
+Label distribution: {'ham': 30}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: telegram_spam_cleaned
+PATH: data/sources/telegram_spam_cleaned.csv
+SIZE: 77901 bytes
+================================================================================
+Headers: ['id', 'date', 'text', 'label', 'has_media', 'forwarded_from']
+Total samples: 199
+Label distribution: {'spam': 199}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: hard_cases_v8
+PATH: data/expansions/hard_cases_v8.csv
+SIZE: 16486 bytes
+================================================================================
+Headers: ['text', 'risk_label', 'intent_label', 'language', 'tags']
+Total samples: 139
+Label distribution: {'SAFE': 14, 'SUSPICIOUS': 9, 'DANGEROUS': 116}
+Language distribution: {'uz': 139}
+Source distribution: {}
+
+================================================================================
+DATASET: hardening_data_v9
+PATH: data/expansions/hardening_data_v9.csv
+SIZE: 29735 bytes
+================================================================================
+Headers: ['text', 'risk_label', 'intent_label', 'language', 'tags']
+Total samples: 223
+Label distribution: {'DANGEROUS': 106, 'SAFE': 99, 'SUSPICIOUS': 18}
+Language distribution: {'mixed': 223}
+Source distribution: {}
+
+================================================================================
+DATASET: realistic_v6_messages
+PATH: data/expansions/realistic_v6_messages.csv
+SIZE: 177545 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 2000
+Label distribution: {'scam': 1500, 'ham': 500}
+Language distribution: {}
+Source distribution: {'sms': 969, 'telegram': 1031}
+
+================================================================================
+DATASET: uz_financial_scams
+PATH: data/phishing_expansion/uz_financial_scams.csv
+SIZE: 51395 bytes
+================================================================================
+Headers: ['text', 'label', 'category', 'notes']
+Total samples: 300
+Label distribution: {'scam': 300}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: uz_security_alert_scams
+PATH: data/security_alert_expansion/uz_security_alert_scams.csv
+SIZE: 40293 bytes
+================================================================================
+Headers: ['text', 'label', 'category']
+Total samples: 250
+Label distribution: {'scam': 250}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: sms_uz_enriched
+PATH: data/uzbek_expansion/sms_uz_enriched.csv
+SIZE: 18964 bytes
+================================================================================
+Headers: ['text', 'label', 'origin', 'notes']
+Total samples: 222
+Label distribution: {'ham': 107, 'scam': 115}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: telegram_uz_enriched
+PATH: data/uzbek_expansion/telegram_uz_enriched.csv
+SIZE: 17510 bytes
+================================================================================
+Headers: ['text', 'label', 'origin', 'notes']
+Total samples: 195
+Label distribution: {'ham': 91, 'scam': 104}
+Language distribution: {}
+Source distribution: {}
+
+================================================================================
+DATASET: translation_candidates
+PATH: data/uzbek_expansion/translation_candidates.csv
+SIZE: 162021 bytes
+================================================================================
+Headers: ['text', 'source', 'label', 'language_hint', 'priority', 'reason']
+Total samples: 1177
+Label distribution: {'scam': 512, 'ham': 665}
+Language distribution: {}
+Source distribution: {'sms': 1138, 'telegram': 39}
+
+================================================================================
+DATASET: uz_dataset_v2
+PATH: data/uzbek_expansion/uz_dataset_v2.csv
+SIZE: 228482 bytes
+================================================================================
+Headers: ['text', 'source', 'label']
+Total samples: 3000
+Label distribution: {'ham': 1500, 'scam': 1500}
+Language distribution: {}
+Source distribution: {'telegram': 1463, 'sms': 1537}
+
+================================================================================
+DATASET: uzbek_policy_seeds
+PATH: data/uzbek_policy_seeds.csv
+SIZE: 500413 bytes
+================================================================================
+Headers: ['text', 'risk_label', 'intent_label', 'tags', 'language', 'source']
+Total samples: 5235
+Label distribution: {'SAFE': 1638, 'SUSPICIOUS': 1553, 'DANGEROUS': 2044}
+Language distribution: {'uz': 5232, 'en': 3}
+Source distribution: {'manual': 235, 'aug': 5000}
+

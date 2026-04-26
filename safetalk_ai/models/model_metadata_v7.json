@@ -1,0 +1,1 @@
+{"modelVersion": "v7", "vectorizer_features": 10000, "class_order": ["DANGEROUS", "SAFE", "SUSPICIOUS"], "training_schema": "semantic_risk_v7", "ngram_range": [1, 2], "use_idf": true, "smooth_idf": true, "sublinear_tf": false}

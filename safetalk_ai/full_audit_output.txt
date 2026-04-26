@@ -1,0 +1,545 @@
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:171: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = all_data[all_data["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:171: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = all_data[all_data["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:171: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = all_data[all_data["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:171: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = all_data[all_data["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:171: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = all_data[all_data["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:171: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = all_data[all_data["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:171: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = all_data[all_data["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+D:\SafeTalk\safetalk_ai\scripts\full_consolidation_audit.py:235: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  matches = df[df["text"].astype(str).str.contains(pattern, case=False, regex=True, na=False)]
+SafeTalk Consolidated Dataset тАФ Full Audit Report
+================================================================================
+
+================================================================================
+  1) LABEL ANALYSIS
+================================================================================
+
+  All unique labels across ALL datasets:
+  Total unique labels: 11
+
+  Label                                                           Count
+  ----------------------------------------------------------------------
+  ham                                                              7128
+  scam                                                             4785
+  SUSPICIOUS|UNKNOWN                                               2166
+  SAFE|INFO                                                        1263
+  SAFE|UNKNOWN                                                      648
+  DANGEROUS|REQUEST                                                 323
+  SAFE|WARNING                                                      213
+  SUSPICIOUS|INFO                                                    27
+  DANGEROUS|UNKNOWN                                                   7
+  SUSPICIOUS|REQUEST                                                  2
+  spam                                                                2
+
+  --- Per-dataset breakdown ---
+
+  [UZ] (6270 rows):
+    scam                                                      2707  ( 43.2%)
+    SAFE|INFO                                                 1216  ( 19.4%)
+    ham                                                        889  ( 14.2%)
+    SUSPICIOUS|UNKNOWN                                         624  ( 10.0%)
+    SAFE|UNKNOWN                                               348  (  5.6%)
+    DANGEROUS|REQUEST                                          255  (  4.1%)
+    SAFE|WARNING                                               210  (  3.3%)
+    SUSPICIOUS|INFO                                             12  (  0.2%)
+    DANGEROUS|UNKNOWN                                            7  (  0.1%)
+    SUSPICIOUS|REQUEST                                           2  (  0.0%)
+
+  [EN] (9578 rows):
+    ham                                                       6239  ( 65.1%)
+    SUSPICIOUS|UNKNOWN                                        1536  ( 16.0%)
+    scam                                                      1465  ( 15.3%)
+    SAFE|UNKNOWN                                               300  (  3.1%)
+    DANGEROUS|REQUEST                                           18  (  0.2%)
+    SAFE|INFO                                                   13  (  0.1%)
+    SAFE|WARNING                                                 3  (  0.0%)
+    SUSPICIOUS|INFO                                              2  (  0.0%)
+    spam                                                         2  (  0.0%)
+
+  [RU] (716 rows):
+    scam                                                       613  ( 85.6%)
+    DANGEROUS|REQUEST                                           50  (  7.0%)
+    SAFE|INFO                                                   34  (  4.7%)
+    SUSPICIOUS|INFO                                             13  (  1.8%)
+    SUSPICIOUS|UNKNOWN                                           6  (  0.8%)
+
+================================================================================
+  2) LANGUAGE CONFLICT ANALYSIS
+================================================================================
+
+  Total conflicts: 12571
+  Columns: ['idx', 'text_preview', 'existing_lang', 'detected_lang', 'method', 'source']
+
+  Conflict pairs (existing_lang -> detected_lang):
+
+  From       To            Count
+  ------------------------------
+  en         uz             8251
+  uz         en             4287
+  ru         en               33
+
+  --- 100 Sample Conflict Rows ---
+
+  [    0]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1650,000 so'm tashlab tura olasanmi?...
+  [    1]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 15:30 da ko'rishamiz..
+  [    2]  en->uz  [master_semantic_dataset_v7.csv               ] Dam olish kuningiz maroqli o'tsin
+  [    3]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 20:00 da ko'rishamiz.?
+  [    4]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 14:00 da ko'rishamiz. tezroq
+  [    5]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 19:30 da ko'rishamiz.?
+  [    6]  en->uz  [master_semantic_dataset_v7.csv               ] go'sht narxi qancha ekan hozir?.
+  [    7]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 8:45 da ko'rishamiz.!
+  [    8]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 10:00 da ko'rishamiz. tezroq
+  [    9]  en->uz  [master_semantic_dataset_v7.csv               ] Guruhga yangi a'zolarni qo'shmanglar iltimos
+  [   10]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 12:30 da ko'rishamiz.?
+  [   11]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 150,000 so'm tashlab tura olasanmi? tezroq
+  [   12]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 12:45 da ko'rishamiz.!
+  [   13]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 15:00 da ko'rishamiz.?
+  [   14]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 17:00 da ko'rishamiz..
+  [   15]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1460,000 so'm tashlab tura olasanmi? tezroq
+  [   16]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 14:15 da ko'rishamiz....
+  [   17]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 360,000 so'm tashlab tura olasanmi?!
+  [   18]  en->uz  [master_semantic_dataset_v7.csv               ] Faylni yuklab oldim, rahmat
+  [   19]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1920,000 so'm tashlab tura olasanmi?...
+  [   20]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 4420,000 so'm tashlab tura olasanmi?.
+  [   21]  en->uz  [master_semantic_dataset_v7.csv               ] Vazifani jo'natvor iltimos. OK
+  [   22]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 10:00 da ko'rishamiz..
+  [   23]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 9:15 da ko'rishamiz....
+  [   24]  en->uz  [master_semantic_dataset_v7.csv               ] Vazifani jo'natvor iltimos..
+  [   25]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 4090,000 so'm tashlab tura olasanmi?...
+  [   26]  en->uz  [master_semantic_dataset_v7.csv               ] Uyga qaytayotganda go'sht olib kel....
+  [   27]  en->uz  [master_semantic_dataset_v7.csv               ] Rahmat kattakon! ?
+  [   28]  en->uz  [master_semantic_dataset_v7.csv               ] Pulni kartaga tushirdim, 150 ming so'm
+  [   29]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 790,000 so'm tashlab tura olasanmi? tezroq
+  [   30]  en->uz  [master_semantic_dataset_v7.csv               ] Uyga qaytayotganda go'sht olib kel..
+  [   31]  en->uz  [master_semantic_dataset_v7.csv               ] Xatni pochtadan jo'natdim. :)
+  [   32]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1750,000 so'm tashlab tura olasanmi?
+  [   33]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 20:45 da ko'rishamiz..
+  [   34]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1870,000 so'm tashlab tura olasanmi? :)
+  [   35]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 17:45 da ko'rishamiz. :)
+  [   36]  en->uz  [master_semantic_dataset_v7.csv               ] Pul o'tkazib yubordim
+  [   37]  en->uz  [master_semantic_dataset_v7.csv               ] Salom, ishlar qale? tezroq
+  [   38]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 18:00 da ko'rishamiz..
+  [   39]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 19:00 da ko'rishamiz....
+  [   40]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 18:15 da ko'rishamiz.!
+  [   41]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 17:15 da ko'rishamiz.
+  [   42]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 4400,000 so'm tashlab tura olasanmi?...
+  [   43]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 15:15 da ko'rishamiz.
+  [   44]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 15:00 da ko'rishamiz..
+  [   45]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2360,000 so'm tashlab tura olasanmi?...
+  [   46]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2400,000 so'm tashlab tura olasanmi?.
+  [   47]  en->uz  [master_semantic_dataset_v7.csv               ] Salom, ishlar qale?!
+  [   48]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2950,000 so'm tashlab tura olasanmi?...
+  [   49]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 3700,000 so'm tashlab tura olasanmi?!
+  [   50]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 21:30 da ko'rishamiz. :)
+  [   51]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2420,000 so'm tashlab tura olasanmi?.
+  [   52]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 14:00 da ko'rishamiz....
+  [   53]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 16:00 da ko'rishamiz..
+  [   54]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 4980,000 so'm tashlab tura olasanmi?
+  [   55]  en->uz  [master_semantic_dataset_v7.csv               ] Vazifani jo'natvor iltimos. ЁЯСН
+  [   56]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun ertalab da ko'rishamiz....
+  [   57]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 3880,000 so'm tashlab tura olasanmi?
+  [   58]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 9:30 da ko'rishamiz. tezroq
+  [   59]  en->uz  [master_semantic_dataset_v7.csv               ] Charchamang, oq yo'l!...
+  [   60]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2990,000 so'm tashlab tura olasanmi?
+  [   61]  en->uz  [master_semantic_dataset_v7.csv               ] Pulni tashladim tekshirib ko'r.!!
+  [   62]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1920,000 so'm tashlab tura olasanmi? :)
+  [   63]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 12:15 da ko'rishamiz. tezroq
+  [   64]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 10:45 da ko'rishamiz..
+  [   65]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 3880,000 so'm tashlab tura olasanmi?!
+  [   66]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 15:45 da ko'rishamiz. tezroq
+  [   67]  en->uz  [master_semantic_dataset_v7.csv               ] 8 at the latest, g's still there if you can scrounge up some ammo and 
+  [   68]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 11:15 da ko'rishamiz.
+  [   69]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 11:00 da ko'rishamiz. :)
+  [   70]  en->uz  [master_semantic_dataset_v7.csv               ] Vazifani jo'natvor iltimos. ?
+  [   71]  en->uz  [master_semantic_dataset_v7.csv               ] Vazifani jo'natvor iltimos.!!
+  [   72]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 18:30 da ko'rishamiz. tezroq
+  [   73]  en->uz  [master_semantic_dataset_v7.csv               ] So what did the bank say about the money?
+  [   74]  en->uz  [master_semantic_dataset_v7.csv               ] Xatni jo'natdingmi?.
+  [   75]  en->uz  [master_semantic_dataset_v7.csv               ] Telefonni ko'tar!?
+  [   76]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 3230,000 so'm tashlab tura olasanmi?!
+  [   77]  en->uz  [master_semantic_dataset_v7.csv               ] Xatni pochtadan jo'natdim. tezroq
+  [   78]  en->uz  [master_semantic_dataset_v7.csv               ] O'qish qachon tugaydi??
+  [   79]  en->uz  [master_semantic_dataset_v7.csv               ] O'qish qachon tugaydi? tezroq
+  [   80]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 13:45 da ko'rishamiz....
+  [   81]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1750,000 so'm tashlab tura olasanmi?!
+  [   82]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2630,000 so'm tashlab tura olasanmi? :)
+  [   83]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 9:30 da ko'rishamiz....
+  [   84]  en->uz  [master_semantic_dataset_v7.csv               ] Rahmat kattakon!!!
+  [   85]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1750,000 so'm tashlab tura olasanmi? tezroq
+  [   86]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 21:45 da ko'rishamiz....
+  [   87]  en->uz  [master_semantic_dataset_v7.csv               ] Yeah that's what I thought, lemme know if anything's goin on later
+  [   88]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 700,000 so'm tashlab tura olasanmi? tezroq
+  [   89]  en->uz  [master_semantic_dataset_v7.csv               ] Pulni tashladim tekshirib ko'r.!
+  [   90]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2450,000 so'm tashlab tura olasanmi?...
+  [   91]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2400,000 so'm tashlab tura olasanmi?
+  [   92]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 18:30 da ko'rishamiz. :)
+  [   93]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 2420,000 so'm tashlab tura olasanmi? :)
+  [   94]  en->uz  [master_semantic_dataset_v7.csv               ] Bugun 19:15 da ko'rishamiz. :)
+  [   95]  en->uz  [master_semantic_dataset_v7.csv               ] Ishlar bilan charchamayapsizmi?!!
+  [   96]  en->uz  [master_semantic_dataset_v7.csv               ] Yaxshimisiz? Sog'liqlar qalay? :)
+  [   97]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 430,000 so'm tashlab tura olasanmi? :)
+  [   98]  en->uz  [master_semantic_dataset_v7.csv               ] Rahmat kattakon! (
+  [   99]  en->uz  [master_semantic_dataset_v7.csv               ] Menga 1650,000 so'm tashlab tura olasanmi? :)
+
+================================================================================
+  3) LABEL DISTRIBUTION (FINAL DATASETS)
+================================================================================
+
+  [UZ] тАФ 6270 total rows
+
+  Label                                                    Count     Pct  Status
+  --------------------------------------------------------------------------------
+  scam                                                      2707   43.2%  
+  SAFE|INFO                                                 1216   19.4%  
+  ham                                                        889   14.2%  
+  SUSPICIOUS|UNKNOWN                                         624   10.0%  тЪа UNDERREPRESENTED (<10%)
+  SAFE|UNKNOWN                                               348    5.6%  тЪа UNDERREPRESENTED (<10%)
+  DANGEROUS|REQUEST                                          255    4.1%  тЪа UNDERREPRESENTED (<10%)
+  SAFE|WARNING                                               210    3.3%  тЪа UNDERREPRESENTED (<10%)
+  SUSPICIOUS|INFO                                             12    0.2%  тЪа UNDERREPRESENTED (<10%)
+  DANGEROUS|UNKNOWN                                            7    0.1%  тЪа UNDERREPRESENTED (<10%)
+  SUSPICIOUS|REQUEST                                           2    0.0%  тЪа UNDERREPRESENTED (<10%)
+
+  [EN] тАФ 9578 total rows
+
+  Label                                                    Count     Pct  Status
+  --------------------------------------------------------------------------------
+  ham                                                       6239   65.1%  
+  SUSPICIOUS|UNKNOWN                                        1536   16.0%  
+  scam                                                      1465   15.3%  
+  SAFE|UNKNOWN                                               300    3.1%  тЪа UNDERREPRESENTED (<10%)
+  DANGEROUS|REQUEST                                           18    0.2%  тЪа UNDERREPRESENTED (<10%)
+  SAFE|INFO                                                   13    0.1%  тЪа UNDERREPRESENTED (<10%)
+  SAFE|WARNING                                                 3    0.0%  тЪа UNDERREPRESENTED (<10%)
+  SUSPICIOUS|INFO                                              2    0.0%  тЪа UNDERREPRESENTED (<10%)
+  spam                                                         2    0.0%  тЪа UNDERREPRESENTED (<10%)
+
+  [RU] тАФ 716 total rows
+
+  Label                                                    Count     Pct  Status
+  --------------------------------------------------------------------------------
+  scam                                                       613   85.6%  тЪа DOMINANT (>70%)
+  DANGEROUS|REQUEST                                           50    7.0%  тЪа UNDERREPRESENTED (<10%)
+  SAFE|INFO                                                   34    4.7%  тЪа UNDERREPRESENTED (<10%)
+  SUSPICIOUS|INFO                                             13    1.8%  тЪа UNDERREPRESENTED (<10%)
+  SUSPICIOUS|UNKNOWN                                           6    0.8%  тЪа UNDERREPRESENTED (<10%)
+
+================================================================================
+  4) HARD CASE EXTRACTION (30 AMBIGUOUS SAMPLES)
+================================================================================
+
+  Extracted 27 hard/ambiguous cases:
+
+    # Lang Label                          Reason                                        Text
+  ----------------------------------------------------------------------------------------------------------------------------------
+    1   uz scam                           mentions security but could be phishing or    Bank xavfsizlik xizmati: havola orqali tekshiruvdan o't
+    2   uz scam                           mentions security but could be phishing or    Diqqat! Bank kartangiz xavfsizlik sababli vaqtincha blo
+    3   uz scam                           mentions security but could be phishing or    Diqqat! Bank kartangiz xavfsizlik sababli vaqtincha blo
+    4   uz scam                           mentions security but could be phishing or    Diqqat! Bank kartangiz xavfsizlik sababli vaqtincha blo
+    5   uz scam                           mentions security but could be phishing or    Diqqat! Bank kartangiz xavfsizlik sababli vaqtincha blo
+    6   uz scam                           verification request - could be real or sca   Darhol tasdiqlang. Parolingiz o'zgardi
+    7   uz scam                           contains link with action verb                Tabriklaymiz! Siz 10,000,000 so'm yutib oldingiz. Pulni
+    8   uz scam                           contains link with action verb                Sizga 500,000 so'm pul o'tkazmasi keldi. Qabul qilish u
+    9   uz scam                           contains link with action verb                Sizning hisobingizdan 1,500,000 so'm yechib olindi! Bek
+   10   uz scam                           contains link with action verb                Click orqali tolov tasdiqlanmadi, profilingiz bloklanad
+   11   uz scam                           contains link with action verb                Farzandingiz maktabda muammoga uchradi, jarima to'lashi
+   12   en scam                           greeting + offer - could be spam or friendl   Dear Voucher Holder, 2 claim this weeks offer, at your 
+   13   en scam                           greeting + offer - could be spam or friendl   Hi. Customer Loyalty Offer:The NEW Nokia6650 Mobile fro
+   14   en scam                           greeting + offer - could be spam or friendl   Dear Voucher Holder, To claim this weeks offer, at you 
+   15   en scam                           greeting + offer - could be spam or friendl   Dear Voucher Holder, To claim this weeks offer, at you 
+   16   en scam                           greeting + offer - could be spam or friendl   This weeks SavaMob member offers are now accessible. Ju
+   17   en ham                            free download - could be legit or malware     Total video converter free download type this in google
+   18   uz SAFE|INFO                      very short text - insufficient context for    Tasdiqlash kodi: 705719
+   19   en ham                            very short text - insufficient context for    May i call You later Pls
+   20   en ham                            very short text - insufficient context for    Not able to do anything.
+   21   uz ham                            very short text - insufficient context for    Bugun 21:15 da ko'rishamiz....
+   22   en ham                            very short text - insufficient context for    Kechikaman biroz 21:30 da boraman..
+   23   en ham                            very short text - insufficient context for    ├Г┬М├Г┬П v ma fan...
+   24   en ham                            very short text - insufficient context for    Play w computer? Aiyah i tok 2 u lor?
+   25   uz ham                            very short text - insufficient context for    Bugun 18:30 da ko'rishamiz.?
+   26   uz SAFE|INFO                      very short text - insufficient context for    Xizmat haqi: 259533 so'm. Click xizmati.
+   27   uz ham                            very short text - insufficient context for    Yaxshi dam oldingmi
+
+================================================================================
+  5) DUPLICATE / PATTERN ANALYSIS
+================================================================================
+
+  --- Scam Pattern Analysis ---
+
+  Pattern                       UZ     EN     RU   Total
+  -------------------------------------------------------
+  CVV/Card Request              19      1      0      20
+  Code/OTP Request              26      2      0      28
+  Account Blocked              369     84     77     530
+  Prize/Lottery                913    839     97    1849
+  Financial Transfer            67     72      2     141
+  Fake Login/Verify             94      8    128     230
+  Urgency Pressure              33    118     21     172
+  Impersonation                  1      1      0       2
+  Job Scam                       0      0      0       0
+  Investment Scam                8      5     81      94
+  URL/Link Pattern            3140   2051    552    5743
+  Safe Greeting                 17    242     14     273
+  Safe Daily Chat              375    716      0    1091
+
+  --- Pattern Examples ---
+  [CVV/Card Request]:
+    Olx.uz: Xaridor sizning tovaringizni sotib oldi. Pulni olish uchun karta raqamin
+    Siz kanalimizning 10,000-chi a'zosiga aylandingiz! Sizga 50 dollar mukofot. Kart
+  [Code/OTP Request]:
+    SMS kod yuboring va mukofot oling
+    One day a crab was running on the sea shore..The waves came n cleared the footpr
+  [Account Blocked]:
+    Indians r poor but India is not a poor country. Says one of the swiss bank direc
+    The gas station is like a block away from my house, you'll drive right by it sin
+    ╨Т╨░╤И╨░ ╨║╨░╤А╤В╨░ ╨╖╨░╨▒╨╗╨╛╨║╨╕╤А╨╛╨▓╨░╨╜╨░. ╨Я╨╛╨┤╤В╨▓╨╡╤А╨┤╨╕╤В╨╡ ╨┐╨╛ ╤Б╤Б╤Л╨╗╨║╨╡: http://uz-confirm.com/575092 -
+  [Prize/Lottery]:
+    Siz yutuqli oтАШyinda gтАШolib boтАШldingiz. Tezda javob bering
+    WINNER!! As a valued network customer you have been selected to receivea ┬г900 pr
+    ╨У╨╛╤Б╤Г╤Б╨╗╤Г╨│╨╕: ╨Т╨░╨╝ ╨╜╨░╤З╨╕╤Б╨╗╨╡╨╜╨░ ╨▓╤Л╨┐╨╗╨░╤В╨░ 273 000. https://t.me/prize_bot/13246
+  [Financial Transfer]:
+    Nothing. I meant that once the money enters your account here, the bank will rem
+    K:)k:)what are detail you want to transfer?acc no enough?
+    ╨Х╤Б╨╗╨╕ ╨▓╨░╨╝ ╨╕╨╜╤В╨╡╤А╨╡╤Б╨╜╨╛ ╨╖╨░╤А╨░╨▒╨░╤В╤Л╨▓╨░╤В╤М ╨▓ ╨║╤А╨╕╨┐╤В╨╡ ╤Б ╨╜╨░╨┤╤С╨╢╨╜╨╛╨╣ ╨║╨╛╨╝╨┐╨░╨╜╨╕╨╡╨╣ тАФ ╨┐╨╕╤И╨╕╤В╨╡!
+тЪбя╕П ╨Ь╤Л тАФ 
+  [Fake Login/Verify]:
+    Sizning hisobingizdan 4,200,000 so'm yechib olindi (Ref: 3445). Bekor qilish uch
+    Security Alert: Your Click account is locked. Please log in to verify: http://se
+    ╨Т╨░╤И ╨░╨║╨║╨░╤Г╨╜╤В Telegram ╨▒╤Г╨┤╨╡╤В ╤Г╨┤╨░╨╗╨╡╨╜ ╤З╨╡╤А╨╡╨╖ 24 ╤З╨░╤Б╨░. ╨Я╨╛╨┤╤В╨▓╨╡╤А╨┤╨╕╤В╨╡ http://uz-confirm.c
+  [Urgency Pressure]:
+    Solve d Case : A Man Was Found Murdered On  &lt;DECIMAL&gt; . &lt;#&gt;  AfterNo
+    URGENT! You have won a 1 week FREE membership in our ┬г100,000 Prize Jackpot! Txt
+    ╨б╤А╨╛╤З╨╜╨╛ ╤В╤А╨╡╨▒╤Г╤О╤В╤Б╤П 2 ╤З╨╡╨╗╨╛╨▓╨╡╨║╨░. ╨Я╤А╨╕╨▒╤Л╨╗╤М╨╜╨╛╤Б╤В╤М ╨╛╤В 16 ╤В╤Л╤Б.╤А╤Г╨▒╨╗╨╡╨╣ ╨▓ ╨┤╨╡╨╜╤М.╨г╨┤╨░╨╗╨╡╨╜╨║╨░.╨Ч╨░ ╨┐╨╛
+  [Impersonation]:
+    Xavfsizlik yuzasidan kodni maxfiy tuting. Bank xodimlariga ham bermang.
+    Hmmm...k...but i want to change the field quickly da:-)i wanna get system admini
+  [Investment Scam]:
+    Bitcoin sotib oling va boy bo'ling
+    Rofl betta invest in some  anti aging products
+    ╨Т╤Л╤Е╨╛╨┤╨╕ ╨╜╨░ ╨┤╨╛╤Е╨╛╨┤ ╨╛╤В 80 ╨┤╨╛╨╗╨╗╨░╤А╨╛╨▓ ╨▓ ╤З╨░╤Б. ╨Х╤Б╤В╤М ╨╜╨╡╤Б╨║╨╛╨╗╤М╨║╨╛ ╤Б╨▓╨╛╨▒╨╛╨┤╨╜╤Л╤Е ╨╝╨╡╤Б╤В╨░, ╨┐╨╕╤И╨╕╤В╨╡ ╤Е╨╛╤З
+  [URL/Link Pattern]:
+    heтБвaтБвrd тБвtheтБвy wтБвere тБвgiтБвviтБвng oтБвut NтБвтБвFтБвтБвтБвTтБвsтБв fтБвoтБвrтБв fтБвrтБвтБвeтБвe, sтБвтБвo тБвI gтБвoтБвt o
+    URGENT! You have won a 1 week FREE membership in our ┬г100,000 Prize Jackpot! Txt
+    ╨Ъ╤А╨╕╨┐╤В╨╛╤В╤А╨╡╨╣╨┤╨╕╨╜╨│ ╨▒╨╡╨╖ ╨┐╤А╨╛╤Б╨░╨┤╨╛╨║ ╨║╨░╨┐╨╕╤В╨░╨╗╨░ тАФ ╤А╨╡╨░╨╗╤М╨╜╨╛╤Б╤В╤М, ╨░ ╨╜╨╡ ╨╝╨╕╤Д
+╨в╨░╨║ ╨▓╤Л ╤В╨╛╤А╨│╤Г╨╡╤В╨╡ ╤Б╨░╨╝╨╛
+  [Safe Greeting]:
+    Salom qalaysan
+    Hello! How's you and how did saturday go? I was just texting to see if you'd dec
+    ╨Я╤А╨╕╨▓╨╡╤В, ╨╜╤Г╨╢╨╜╤Л 2 ╤З╨╡╨╗╨╛╨▓╨╡╨║╨░ ,╨▓╤Б╨╡ ╤Б ╤В╨╡╨╗╨╡╤Д╨╛╨╜╨░, ╨╕╨╗╨╕┬а ╨║╨╛╨╝╨┐╤М╤О╤В╨╡╤А╨░. ╨Ю╤В 220┬а$ ╨▓ ╨┤╨╡╨╜╤М. ╨г╨┤╨░╨╗
+  [Safe Daily Chat]:
+    Today my system sh get ready.all is well and i am also in the deep well
+    I'm gonna be home soon and i don't want to talk about this stuff anymore tonight
+
+  --- Top 20 Texts Per Dataset (post-dedup, by source frequency) ---
+
+  [UZ]:
+    master_semantic_dataset_v7.csv                       2442
+    messages_cleaned_v5.csv                              1942
+    messages_cleaned_v6.csv                               738
+    messages_cleaned_v3.csv                               300
+    messages_cleaned_v2.csv                               289
+    messages_cleaned_v4.csv                               250
+    master_semantic_dataset_v8.csv                        139
+    messages_cleaned.csv                                   63
+    master_semantic_dataset_v9_cleaned.csv                 51
+    hardening_data_v9.csv                                  42
+    translation_candidates.csv                             14
+
+  [EN]:
+    messages_cleaned.csv                                 5728
+    master_semantic_dataset_v7.csv                       1839
+    messages_cleaned_v5.csv                              1057
+    messages_cleaned_v6.csv                               734
+    messages_cleaned_v2.csv                               128
+    sms_spam_collection.txt                                54
+    master_semantic_dataset_v9_cleaned.csv                 26
+    hardening_data_v9.csv                                   7
+    unified_messages_raw.csv                                3
+    translation_candidates.csv                              2
+
+  [RU]:
+    messages_cleaned_v6.csv                               500
+    messages_cleaned.csv                                  113
+    master_semantic_dataset_v9_cleaned.csv                 55
+    hardening_data_v9.csv                                  42
+    master_semantic_dataset_v7.csv                          6
+
+================================================================================
+  6) CROSS-LANGUAGE LEAKAGE CHECK
+================================================================================
+
+  Cross-Language Overlap Summary:
+    UZ тИй EN:       2431 texts
+    UZ тИй RU:          0 texts
+    EN тИй RU:          6 texts
+    UZ тИй EN тИй RU:     0 texts
+    Total unique overlapping texts: 2437
+
+  --- UZ тИй EN Sample Overlaps (up to 30) ---
+    1. [messages_cleaned.csv     |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   (Bank of Granite issues Strong-Buy) EXPLOSIVE PICK FOR OUR MEMBER
+    2. [master_semantic_dataset_v|messages_cleaned.csv     ] UZ:SUSPICIOUS|UNKNOWN   EN:scam                 09066362231 URGENT! Your mobile No 07xxxxxxxxx won a ┬г2,000 bonus
+    3. [master_semantic_dataset_v|messages_cleaned.csv     ] UZ:SUSPICIOUS|UNKNOWN   EN:scam                 09066362231 URGENT! Your mobile No 07xxxxxxxxx won a ├Г┬е├В┬г2,000 bo
+    4. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   10 marta aylantiring va millioner bo'ling yashirin ssilka
+    5. [messages_cleaned.csv     |master_semantic_dataset_v] UZ:ham                  EN:SAFE|UNKNOWN         8 at the latest, g's still there if you can scrounge up some ammo
+    6. [messages_cleaned.csv     |master_semantic_dataset_v] UZ:ham                  EN:SAFE|UNKNOWN         About  &lt;#&gt; bucks. The banks fees are fixed. Better to call 
+    7. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_1
+    8. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_2
+    9. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_3
+   10. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_4
+   11. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_5
+   12. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_6
+   13. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_7
+   14. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_8
+   15. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Admin paneldan sizga VIP status. Olish: t.me/vip_bot_9
+   16. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Adminlar diqqatiga! Kanalga narutka kerakmi? 1000 obunachi 5000 s
+   17. [master_semantic_dataset_v|messages_cleaned.csv     ] UZ:SUSPICIOUS|UNKNOWN   EN:scam                 Akkaunt tekshiruvi talab qilinadi
+   18. [master_semantic_dataset_v|messages_cleaned.csv     ] UZ:SUSPICIOUS|UNKNOWN   EN:scam                 Akkauntingiz bloklanish arafasida
+   19. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 10 GB bepul internet. Faollashtirish uchun: beeline-net10
+   20. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 20 GB bepul internet. Faollashtirish uchun: beeline-net20
+   21. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 30 GB bepul internet. Faollashtirish uchun: beeline-net30
+   22. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 40 GB bepul internet. Faollashtirish uchun: beeline-net40
+   23. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 50 GB bepul internet. Faollashtirish uchun: beeline-net50
+   24. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 60 GB bepul internet. Faollashtirish uchun: beeline-net60
+   25. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 70 GB bepul internet. Faollashtirish uchun: beeline-net70
+   26. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 80 GB bepul internet. Faollashtirish uchun: beeline-net80
+   27. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! 90 GB bepul internet. Faollashtirish uchun: beeline-net90
+   28. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Aksiya! Barcha tovarlarga 90% chegirma. Faqat 1 soat qoldi, ssilk
+   29. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   AliExpress bojxona yig'imi. Shuni bosing
+   30. [messages_cleaned_v2.csv  |master_semantic_dataset_v] UZ:scam                 EN:SUSPICIOUS|UNKNOWN   Amazon: Pochtada muammo, to'lov qiling
+
+  --- EN тИй RU Sample Overlaps (up to 20) ---
+    1. Gmail ╨╛╤В 0.34$, Telegram ╨╛╤В 0.45$, Facebook ADS ╨╛╤В 0.36$. ╨Т╤Б╤С ╤Б╨▓╨╡╨╢╨╡╨╡ @
+    2. ╨Р╨▓╤В╨╛╤А╨╡╨│╨╕ ╨╛╤В ╨┐╤А╨╛╨╕╨╖╨▓╨╛╨┤╨╕╤В╨╡╨╗╤П: Telegram, Gmail, Facebook, Instagram тАФ ╤Ж╨╡╨╜╤Л
+    3. ╨Р╨║╨║╨░╤Г╨╜╤В╤Л Telegram, Gmail, Facebook, Instagram, TikTok, Twitter тАФ ╤Б╨▓╨╡╨╢╨░
+    4. ╨Т╤Б╨╡ ╨▓╨╕╨┤╤Л ╨░╨║╨║╨░╤Г╨╜╤В╨╛╨▓ ╨▓ ╨╛╨┤╨╜╨╛╨╝ ╨╝╨╡╤Б╤В╨╡: TG, Gmail, FB, IG, TikTok, Twitter @
+    5. ╨Я╨╕╤И╨╕╤В╨╡ - @USERNAME_REDACTED
+    6. тЭЧя╕ПтЭЧя╕ПтЭЧя╕ПтЭЧя╕ПтЭЧя╕ПтЭЧя╕ПтЭЧя╕ПтЭЧя╕П  ЁЯТ╡╨Ш╨йEM ╨Я╨Р╨а╨в╨Э╨Х╨а╨Ю╨Т B C╨дEP╨г ╨ЧAPA╨СOTKA HA TPE╨Щ╨Ф╨ШH╨УE KP╨Ш╨ЯT
+
+================================================================================
+  7) FINAL VERIFICATION
+================================================================================
+
+  Dataset Sizes:
+    UZ:     6270 rows,     6270 unique normalized texts
+    EN:     9578 rows,     9578 unique normalized texts
+    RU:      716 rows,      716 unique normalized texts
+    TOTAL:  16564 rows
+
+  Intra-Dataset Duplicates (should be 0):
+    UZ: PASS
+    EN: PASS
+    RU: PASS
+
+  Empty Texts (should be 0):
+    UZ: 0
+    EN: 0
+    RU: 0
+
+  Language Column Consistency:
+    UZ: PASS (expected all 'uz', found <StringArray>
+['uz']
+Length: 1, dtype: str)
+    EN: PASS (expected all 'en', found <StringArray>
+['en']
+Length: 1, dtype: str)
+    RU: PASS (expected all 'ru', found <StringArray>
+['ru']
+Length: 1, dtype: str)
+
+  Source Dataset Coverage:
+    UZ: 11 unique sources
+    EN: 10 unique sources
+    RU: 5 unique sources
+    Total unique sources across all datasets: 13
+
+  Total unique normalized texts across all 3 datasets: 14127
+
+  ========================================
+  OVERALL STATUS: ALL CHECKS PASSED
+  ========================================
+
+
+Report saved to: d:\SafeTalk\safetalk_ai\data\consolidated\full_audit_report.txt

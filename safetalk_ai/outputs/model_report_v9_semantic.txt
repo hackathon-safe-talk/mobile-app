@@ -1,0 +1,17 @@
+=== SafeTalk Semantic Model Evaluation Summary V9 ===
+Timestamp: 2026-03-17 23:54:52
+Best Params: {'ngram_range': (1, 2), 'class_weight': 'balanced'}
+Accuracy: 0.9955
+
+Classification Report (Test Set):
+DANGEROUS: {'precision': 0.9629629629629629, 'recall': 0.9629629629629629, 'f1-score': 0.9629629629629629, 'support': 81.0}
+SAFE: {'precision': 0.9642857142857143, 'recall': 0.9935064935064936, 'f1-score': 0.9786780383795309, 'support': 462.0}
+SUSPICIOUS: {'precision': 0.9934924078091106, 'recall': 0.9642105263157895, 'f1-score': 0.9786324786324786, 'support': 475.0}
+accuracy: 0.9774066797642437
+macro avg: {'precision': 0.9735803616859293, 'recall': 0.9735599942617487, 'f1-score': 0.9734244933249908, 'support': 1018.0}
+weighted avg: {'precision': 0.9778083435258621, 'recall': 0.9774066797642437, 'f1-score': 0.9774063664850399, 'support': 1018.0}
+
+Confusion Matrix (SAFE, SUSPICIOUS, DANGEROUS):
+[[459   2   1]
+ [ 15 458   2]
+ [  2   1  78]]
